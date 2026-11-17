@@ -2,36 +2,26 @@
 
 Parte do [ciclo de pessoas](../README.md). Dados fictícios.
 
-## O desafio
+## O ponto de partida
 
-A empresa tinha um SLA de 30 dias para fechar qualquer vaga, mas ninguém acompanhava se ele era cumprido. O primeiro passo foi **registrar esse SLA em um painel no Power BI**, com cada vaga, sua etapa e seus dias em aberto.
+O recrutamento trabalhava com um prazo único de 30 dias para fechar qualquer vaga. Para transformar esse prazo em gestão, criei um painel no Power BI que registra cada vaga, a etapa em que ela está e há quantos dias segue aberta. Com ele, o SLA passou a ser acompanhado com dados, etapa por etapa.
 
-## Dos dados ao novo processo
+## Do painel ao estudo
 
-Com o painel rodando, a análise mostrou **em quais etapas as vagas travavam**. Esse diagnóstico virou um estudo de alguns meses com a área de recrutamento, e a partir de maio entrou em vigor um fluxo novo, com prazos menores e separados por perfil de vaga:
+Com o tempo de cada etapa medido, os dados mostraram em quais pontos as vagas ganhavam ritmo e em quais perdiam. Levei esse diagnóstico para a coordenação de recrutamento e conduzimos juntos um estudo de alguns meses sobre o fluxo.
 
-| Etapa | Operacional (15 dias) | Estratégica (25 dias) |
-| --- | --- | --- |
-| Abertura e alinhamento com o gestor | D0–D2 | D0–D2 |
-| Divulgação e triagem | D3–D6 | D3–D7 |
-| Entrevista com RH e testes | D7–D8 | D8–D10 |
-| Entrevista e feedback do gestor | D9–D10 | D11–D15 |
-| Definição do candidato | D11 | D16–D18 |
-| Proposta e documentação | D12–D14 | D19–D24 |
-| Admissão | D15 | D25 |
-
-Operacionais são as vagas de auxiliar de operação e atendente; as demais são estratégicas. Com o tempo medido etapa por etapa, o painel mostra que o alinhamento com o gestor, a divulgação e a documentação ainda concentram a maior parte do atraso, e é nelas que estão as próximas ações.
+O estudo virou o teste de um processo novo: prazos menores e separados por perfil de vaga, com 15 dias para as operacionais e 25 para as estratégicas, e atenção maior às etapas que mais pesavam no tempo total. O painel continua medindo cada etapa e mostra onde estão as próximas ações.
 
 ![Tempo médio em cada etapa contra o prazo do fluxo, dados fictícios](imagens/tempo_por_etapa.png)
 
 ## Onde a IA entrou
 
-Os códigos do painel já existiam, mas tinham sido feitos para o SLA único. Extraí as mais de 30 medidas do painel pelo DAX Studio e usei o Claude para **reaplicá-las ao novo fluxo** e revisar o processo inteiro contra o documento oficial. A revisão encontrou regras quebradas: um calendário único de etapas que passava dos 30 dias, vagas canceladas no tempo médio de fechamento e vagas sem etapa aparecendo dentro do prazo. Conferi cada correção recalculando os números em Python antes de aplicar.
+Construí as medidas do painel para o SLA único, e elas funcionavam para ele. Com o processo novo, a lógica precisava mudar, porque cada perfil de vaga passou a ter o próprio prazo por etapa. Extraí as mais de 30 medidas pelo DAX Studio e usei o Claude para adaptá-las ao novo fluxo e conferir cada regra contra o documento oficial do processo. Validei os resultados recalculando os números em Python antes de colocar o painel novo em uso.
 
-Próximo passo, em estudo: um fluxo no Power Automate que envie toda semana à gerência o quadro de vagas e as que estão críticas.
+Próximo passo, em estudo: automatizar com o Power Automate o envio semanal das vagas críticas à gerência.
 
 ## Arquivos
 
-- `dax/`: colunas e medidas do novo fluxo, prontas para colar no Power BI
+- `dax/`: colunas e medidas adaptadas ao novo fluxo, prontas para colar no Power BI
 - `dados/`: requisições e histórico de etapas fictícios
 - `gerar_dados_exemplo.py`: gera os dados e o gráfico (`pip install pandas numpy matplotlib`)
