@@ -1,0 +1,801 @@
+id;data_admissao;data_desligamento;cargo;area;turno;idade;genero
+C0001;2026-08-17;2026-09-17;Auxiliar de Operação;Medicamentos;Diurno;25;Masculino
+C0002;2026-06-02;2026-06-15;Auxiliar de Operação;Higiene e Beleza;Noturno;41;Masculino
+C0003;2026-06-16;;Operador de Empilhadeira;Medicamentos;Diurno;34;Feminino
+C0004;2026-08-06;2026-09-03;Auxiliar de Operação;Higiene e Beleza;Diurno;30;Feminino
+C0005;2026-05-22;2026-05-31;Auxiliar de Operação;Higiene e Beleza;Diurno;25;Masculino
+C0006;2026-07-08;2026-08-05;Auxiliar de Operação;Higiene e Beleza;Noturno;18;Masculino
+C0007;2026-07-22;2026-07-26;Auxiliar de Operação;Medicamentos;Diurno;21;Masculino
+C0008;2026-02-27;2026-03-16;Auxiliar de Operação;Medicamentos;Noturno;26;Masculino
+C0009;2026-01-18;;Auxiliar de Operação;Medicamentos;Diurno;28;Masculino
+C0010;2026-03-17;2026-04-17;Auxiliar de Operação;Higiene e Beleza;Noturno;33;Masculino
+C0011;2026-03-13;2026-08-07;Auxiliar de Operação;Higiene e Beleza;Noturno;34;Masculino
+C0012;2026-07-31;;Auxiliar de Operação;Medicamentos;Noturno;32;Masculino
+C0013;2026-08-10;2026-09-20;Auxiliar de Operação;Higiene e Beleza;Noturno;32;Masculino
+C0014;2026-01-06;;Auxiliar de Operação;Higiene e Beleza;Diurno;22;Masculino
+C0015;2026-05-03;;Auxiliar de Operação;Higiene e Beleza;Diurno;18;Masculino
+C0016;2026-07-19;2026-08-18;Conferente;Higiene e Beleza;Noturno;26;Feminino
+C0017;2026-02-05;2026-03-06;Auxiliar de Operação;Higiene e Beleza;Noturno;22;Masculino
+C0018;2026-07-13;;Operador de Empilhadeira;Higiene e Beleza;Diurno;25;Masculino
+C0019;2026-02-02;2026-03-14;Auxiliar de Operação;Medicamentos;Noturno;28;Masculino
+C0020;2026-04-26;2026-05-10;Auxiliar de Operação;Medicamentos;Diurno;20;Feminino
+C0021;2026-07-18;2026-08-27;Conferente;Higiene e Beleza;Diurno;21;Feminino
+C0022;2026-03-18;;Auxiliar de Operação;Medicamentos;Noturno;29;Masculino
+C0023;2026-03-27;2026-04-17;Auxiliar de Operação;Medicamentos;Diurno;31;Masculino
+C0024;2026-03-12;2026-03-29;Auxiliar de Operação;Higiene e Beleza;Noturno;25;Feminino
+C0025;2026-06-25;;Auxiliar de Operação;Higiene e Beleza;Diurno;34;Masculino
+C0026;2026-03-06;2026-04-11;Auxiliar de Operação;Medicamentos;Noturno;28;Feminino
+C0027;2026-08-28;2026-10-10;Auxiliar de Operação;Higiene e Beleza;Diurno;22;Masculino
+C0028;2026-04-20;;Auxiliar de Operação;Medicamentos;Diurno;30;Masculino
+C0029;2026-04-28;2026-05-28;Auxiliar de Operação;Higiene e Beleza;Noturno;45;Feminino
+C0030;2026-05-05;;Auxiliar de Operação;Higiene e Beleza;Diurno;25;Masculino
+C0031;2026-05-23;2026-05-30;Auxiliar de Operação;Medicamentos;Noturno;39;Feminino
+C0032;2026-05-16;2026-08-28;Auxiliar de Operação;Medicamentos;Diurno;41;Masculino
+C0033;2026-05-06;;Auxiliar de Operação;Medicamentos;Diurno;42;Feminino
+C0034;2026-08-29;;Operador de Empilhadeira;Higiene e Beleza;Diurno;23;Feminino
+C0035;2026-07-16;2026-07-27;Auxiliar de Operação;Medicamentos;Noturno;46;Feminino
+C0036;2026-07-12;2026-08-13;Auxiliar de Operação;Medicamentos;Diurno;31;Feminino
+C0037;2026-06-20;;Auxiliar de Operação;Higiene e Beleza;Diurno;28;Masculino
+C0038;2026-06-02;2026-09-03;Auxiliar de Operação;Higiene e Beleza;Noturno;28;Feminino
+C0039;2026-03-27;;Auxiliar de Operação;Higiene e Beleza;Diurno;35;Masculino
+C0040;2026-08-28;2026-09-14;Auxiliar de Operação;Higiene e Beleza;Diurno;30;Masculino
+C0041;2026-04-25;2026-06-03;Auxiliar de Operação;Medicamentos;Diurno;29;Masculino
+C0042;2026-02-25;2026-04-14;Conferente;Medicamentos;Diurno;40;Feminino
+C0043;2026-07-25;;Operador de Empilhadeira;Medicamentos;Diurno;24;Masculino
+C0044;2026-02-12;2026-03-31;Auxiliar de Operação;Medicamentos;Noturno;22;Feminino
+C0045;2026-07-28;2026-08-26;Auxiliar de Operação;Medicamentos;Diurno;36;Feminino
+C0046;2026-05-30;2026-07-18;Auxiliar de Operação;Higiene e Beleza;Diurno;36;Masculino
+C0047;2026-02-01;2026-03-08;Auxiliar de Operação;Higiene e Beleza;Noturno;39;Masculino
+C0048;2026-01-15;;Auxiliar de Operação;Higiene e Beleza;Noturno;21;Feminino
+C0049;2026-04-20;;Conferente;Medicamentos;Diurno;39;Masculino
+C0050;2026-01-13;;Auxiliar de Operação;Medicamentos;Noturno;34;Masculino
+C0051;2026-02-07;2026-03-18;Auxiliar de Operação;Higiene e Beleza;Diurno;44;Masculino
+C0052;2026-05-07;2026-07-01;Auxiliar de Operação;Medicamentos;Noturno;20;Feminino
+C0053;2026-08-23;;Auxiliar de Operação;Medicamentos;Noturno;32;Masculino
+C0054;2026-04-25;2026-06-05;Auxiliar de Operação;Medicamentos;Noturno;28;Masculino
+C0055;2026-07-16;2026-07-19;Auxiliar de Operação;Higiene e Beleza;Noturno;18;Feminino
+C0056;2026-08-11;;Auxiliar de Operação;Medicamentos;Diurno;24;Masculino
+C0057;2026-07-19;;Auxiliar de Operação;Medicamentos;Diurno;39;Masculino
+C0058;2026-06-03;2026-07-24;Conferente;Medicamentos;Diurno;26;Masculino
+C0059;2026-04-20;2026-06-08;Auxiliar de Operação;Higiene e Beleza;Noturno;24;Masculino
+C0060;2026-05-07;;Auxiliar de Operação;Higiene e Beleza;Diurno;37;Masculino
+C0061;2026-03-09;2026-03-24;Auxiliar de Operação;Higiene e Beleza;Diurno;38;Masculino
+C0062;2026-05-03;;Auxiliar de Operação;Medicamentos;Noturno;38;Feminino
+C0063;2026-04-05;;Auxiliar de Operação;Medicamentos;Diurno;24;Masculino
+C0064;2026-03-04;2026-08-19;Auxiliar de Operação;Higiene e Beleza;Diurno;30;Feminino
+C0065;2026-08-29;2026-09-17;Auxiliar de Operação;Higiene e Beleza;Noturno;38;Masculino
+C0066;2026-01-07;2026-02-01;Auxiliar de Operação;Medicamentos;Diurno;25;Masculino
+C0067;2026-01-28;2026-03-05;Auxiliar de Operação;Higiene e Beleza;Noturno;24;Masculino
+C0068;2026-02-19;2026-04-06;Auxiliar de Operação;Medicamentos;Noturno;37;Masculino
+C0069;2026-08-23;;Auxiliar de Operação;Medicamentos;Diurno;42;Masculino
+C0070;2026-06-18;;Auxiliar de Operação;Medicamentos;Noturno;21;Masculino
+C0071;2026-08-02;2026-08-29;Auxiliar de Operação;Higiene e Beleza;Diurno;18;Masculino
+C0072;2026-02-21;;Auxiliar de Operação;Higiene e Beleza;Diurno;18;Feminino
+C0073;2026-06-25;2026-07-26;Auxiliar de Operação;Higiene e Beleza;Noturno;22;Masculino
+C0074;2026-04-02;2026-08-20;Auxiliar de Operação;Medicamentos;Diurno;29;Masculino
+C0075;2026-05-01;2026-06-06;Auxiliar de Operação;Higiene e Beleza;Diurno;35;Feminino
+C0076;2026-01-05;2026-03-05;Auxiliar de Operação;Medicamentos;Noturno;29;Masculino
+C0077;2026-05-31;2026-07-17;Auxiliar de Operação;Medicamentos;Noturno;24;Masculino
+C0078;2026-07-21;;Auxiliar de Operação;Medicamentos;Diurno;31;Feminino
+C0079;2026-06-11;2026-07-20;Auxiliar de Operação;Medicamentos;Diurno;22;Feminino
+C0080;2026-02-10;;Auxiliar de Operação;Medicamentos;Diurno;30;Feminino
+C0081;2026-05-12;;Auxiliar de Operação;Medicamentos;Diurno;25;Feminino
+C0082;2026-03-09;;Auxiliar de Operação;Medicamentos;Diurno;51;Feminino
+C0083;2026-08-22;;Auxiliar de Operação;Medicamentos;Diurno;37;Masculino
+C0084;2026-08-02;;Operador de Empilhadeira;Medicamentos;Noturno;23;Masculino
+C0085;2026-02-18;2026-09-10;Auxiliar de Operação;Higiene e Beleza;Diurno;22;Masculino
+C0086;2026-05-06;;Conferente;Higiene e Beleza;Diurno;26;Masculino
+C0087;2026-08-16;;Operador de Empilhadeira;Medicamentos;Diurno;18;Feminino
+C0088;2026-07-25;2026-08-11;Auxiliar de Operação;Higiene e Beleza;Diurno;24;Feminino
+C0089;2026-06-22;2026-07-14;Auxiliar de Operação;Higiene e Beleza;Noturno;24;Masculino
+C0090;2026-06-06;2026-06-10;Conferente;Medicamentos;Noturno;37;Feminino
+C0091;2026-01-15;2026-03-07;Auxiliar de Operação;Higiene e Beleza;Diurno;27;Masculino
+C0092;2026-06-30;2026-08-16;Auxiliar de Operação;Medicamentos;Diurno;24;Feminino
+C0093;2026-04-27;;Auxiliar de Operação;Higiene e Beleza;Noturno;19;Masculino
+C0094;2026-01-26;2026-03-14;Conferente;Higiene e Beleza;Diurno;21;Masculino
+C0095;2026-03-04;2026-04-16;Auxiliar de Operação;Medicamentos;Noturno;29;Feminino
+C0096;2026-05-13;2026-06-27;Auxiliar de Operação;Higiene e Beleza;Diurno;28;Feminino
+C0097;2026-06-26;2026-07-18;Auxiliar de Operação;Higiene e Beleza;Noturno;39;Masculino
+C0098;2026-05-05;;Conferente;Higiene e Beleza;Diurno;25;Feminino
+C0099;2026-05-30;2026-06-02;Auxiliar de Operação;Higiene e Beleza;Diurno;38;Feminino
+C0100;2026-07-31;;Auxiliar de Operação;Higiene e Beleza;Diurno;32;Feminino
+C0101;2026-06-17;2026-06-27;Auxiliar de Operação;Medicamentos;Diurno;30;Feminino
+C0102;2026-03-31;2026-05-14;Auxiliar de Operação;Higiene e Beleza;Noturno;18;Masculino
+C0103;2026-06-07;;Auxiliar de Operação;Medicamentos;Noturno;20;Feminino
+C0104;2026-05-27;;Auxiliar de Operação;Medicamentos;Diurno;36;Feminino
+C0105;2026-01-30;;Auxiliar de Operação;Higiene e Beleza;Noturno;41;Masculino
+C0106;2026-01-19;2026-03-01;Auxiliar de Operação;Medicamentos;Diurno;32;Masculino
+C0107;2026-06-11;;Auxiliar de Operação;Medicamentos;Diurno;36;Feminino
+C0108;2026-04-07;;Operador de Empilhadeira;Higiene e Beleza;Diurno;27;Masculino
+C0109;2026-05-27;;Auxiliar de Operação;Higiene e Beleza;Diurno;27;Masculino
+C0110;2026-03-22;;Auxiliar de Operação;Higiene e Beleza;Diurno;25;Masculino
+C0111;2026-02-27;2026-03-11;Auxiliar de Operação;Medicamentos;Noturno;38;Feminino
+C0112;2026-02-09;2026-03-20;Auxiliar de Operação;Higiene e Beleza;Noturno;33;Feminino
+C0113;2026-04-05;;Conferente;Medicamentos;Diurno;28;Feminino
+C0114;2026-07-18;2026-08-22;Auxiliar de Operação;Higiene e Beleza;Noturno;27;Masculino
+C0115;2026-04-10;2026-05-03;Conferente;Higiene e Beleza;Noturno;34;Masculino
+C0116;2026-04-05;;Auxiliar de Operação;Higiene e Beleza;Diurno;33;Masculino
+C0117;2026-05-21;;Auxiliar de Operação;Medicamentos;Diurno;23;Masculino
+C0118;2026-08-25;2026-09-04;Auxiliar de Operação;Medicamentos;Noturno;44;Feminino
+C0119;2026-04-08;2026-05-29;Auxiliar de Operação;Higiene e Beleza;Diurno;32;Masculino
+C0120;2026-05-25;2026-07-04;Auxiliar de Operação;Medicamentos;Noturno;30;Feminino
+C0121;2026-04-19;;Auxiliar de Operação;Higiene e Beleza;Diurno;42;Masculino
+C0122;2026-05-29;2026-06-07;Auxiliar de Operação;Medicamentos;Noturno;38;Masculino
+C0123;2026-04-21;;Auxiliar de Operação;Medicamentos;Diurno;29;Feminino
+C0124;2026-06-05;;Auxiliar de Operação;Medicamentos;Diurno;34;Masculino
+C0125;2026-05-15;2026-05-28;Auxiliar de Operação;Higiene e Beleza;Diurno;21;Masculino
+C0126;2026-06-14;;Auxiliar de Operação;Higiene e Beleza;Noturno;25;Masculino
+C0127;2026-08-20;2026-09-29;Auxiliar de Operação;Higiene e Beleza;Diurno;18;Masculino
+C0128;2026-02-09;2026-03-28;Conferente;Medicamentos;Noturno;40;Feminino
+C0129;2026-05-18;2026-07-12;Auxiliar de Operação;Higiene e Beleza;Diurno;18;Masculino
+C0130;2026-04-19;2026-08-21;Auxiliar de Operação;Medicamentos;Diurno;35;Masculino
+C0131;2026-03-31;2026-04-18;Auxiliar de Operação;Higiene e Beleza;Diurno;23;Masculino
+C0132;2026-03-03;;Auxiliar de Operação;Medicamentos;Diurno;22;Feminino
+C0133;2026-01-17;;Auxiliar de Operação;Medicamentos;Diurno;28;Feminino
+C0134;2026-04-10;;Conferente;Medicamentos;Noturno;32;Masculino
+C0135;2026-07-20;2026-07-28;Auxiliar de Operação;Medicamentos;Noturno;35;Masculino
+C0136;2026-01-28;2026-10-05;Auxiliar de Operação;Higiene e Beleza;Diurno;44;Masculino
+C0137;2026-04-11;;Auxiliar de Operação;Higiene e Beleza;Diurno;33;Masculino
+C0138;2026-08-23;2026-10-04;Auxiliar de Operação;Higiene e Beleza;Diurno;37;Masculino
+C0139;2026-08-19;2026-10-05;Auxiliar de Operação;Medicamentos;Noturno;25;Feminino
+C0140;2026-02-25;;Auxiliar de Operação;Higiene e Beleza;Diurno;36;Masculino
+C0141;2026-01-06;;Auxiliar de Operação;Medicamentos;Noturno;31;Feminino
+C0142;2026-06-13;2026-07-06;Auxiliar de Operação;Higiene e Beleza;Noturno;26;Masculino
+C0143;2026-01-08;2026-01-25;Auxiliar de Operação;Medicamentos;Noturno;29;Feminino
+C0144;2026-03-17;;Auxiliar de Operação;Higiene e Beleza;Noturno;30;Feminino
+C0145;2026-05-03;2026-06-17;Auxiliar de Operação;Medicamentos;Noturno;32;Masculino
+C0146;2026-08-01;;Auxiliar de Operação;Medicamentos;Diurno;33;Masculino
+C0147;2026-01-27;;Auxiliar de Operação;Medicamentos;Diurno;26;Masculino
+C0148;2026-06-11;;Auxiliar de Operação;Medicamentos;Diurno;24;Masculino
+C0149;2026-05-11;;Auxiliar de Operação;Medicamentos;Diurno;36;Masculino
+C0150;2026-02-05;;Operador de Empilhadeira;Higiene e Beleza;Diurno;18;Feminino
+C0151;2026-07-25;;Auxiliar de Operação;Higiene e Beleza;Diurno;25;Feminino
+C0152;2026-07-25;;Auxiliar de Operação;Medicamentos;Noturno;42;Masculino
+C0153;2026-04-29;;Auxiliar de Operação;Medicamentos;Diurno;18;Masculino
+C0154;2026-08-17;;Conferente;Higiene e Beleza;Diurno;24;Feminino
+C0155;2026-05-29;;Auxiliar de Operação;Medicamentos;Diurno;36;Masculino
+C0156;2026-08-08;;Operador de Empilhadeira;Higiene e Beleza;Diurno;18;Masculino
+C0157;2026-08-21;;Conferente;Medicamentos;Noturno;51;Masculino
+C0158;2026-05-20;;Auxiliar de Operação;Medicamentos;Diurno;18;Masculino
+C0159;2026-03-12;2026-09-07;Conferente;Medicamentos;Diurno;41;Masculino
+C0160;2026-02-08;;Auxiliar de Operação;Medicamentos;Diurno;42;Feminino
+C0161;2026-05-18;;Auxiliar de Operação;Medicamentos;Diurno;37;Masculino
+C0162;2026-02-19;;Auxiliar de Operação;Medicamentos;Diurno;28;Masculino
+C0163;2026-07-02;;Operador de Empilhadeira;Higiene e Beleza;Diurno;33;Feminino
+C0164;2026-08-13;;Conferente;Higiene e Beleza;Diurno;23;Masculino
+C0165;2026-03-04;;Auxiliar de Operação;Medicamentos;Diurno;36;Feminino
+C0166;2026-05-16;;Auxiliar de Operação;Higiene e Beleza;Noturno;21;Masculino
+C0167;2026-01-16;2026-01-26;Auxiliar de Operação;Medicamentos;Diurno;28;Masculino
+C0168;2026-02-16;2026-04-09;Auxiliar de Operação;Higiene e Beleza;Noturno;38;Masculino
+C0169;2026-04-04;;Auxiliar de Operação;Medicamentos;Diurno;21;Masculino
+C0170;2026-08-03;;Operador de Empilhadeira;Medicamentos;Diurno;27;Masculino
+C0171;2026-08-23;;Auxiliar de Operação;Higiene e Beleza;Noturno;31;Feminino
+C0172;2026-06-06;;Operador de Empilhadeira;Higiene e Beleza;Diurno;19;Feminino
+C0173;2026-05-23;;Auxiliar de Operação;Medicamentos;Noturno;39;Feminino
+C0174;2026-05-20;2026-06-12;Auxiliar de Operação;Medicamentos;Noturno;33;Masculino
+C0175;2026-01-19;;Auxiliar de Operação;Higiene e Beleza;Noturno;18;Masculino
+C0176;2026-04-04;;Auxiliar de Operação;Higiene e Beleza;Diurno;30;Feminino
+C0177;2026-08-27;;Auxiliar de Operação;Higiene e Beleza;Noturno;24;Feminino
+C0178;2026-04-12;2026-06-05;Auxiliar de Operação;Higiene e Beleza;Noturno;25;Masculino
+C0179;2026-02-24;2026-04-22;Auxiliar de Operação;Higiene e Beleza;Noturno;31;Masculino
+C0180;2026-03-02;2026-10-22;Conferente;Higiene e Beleza;Diurno;24;Masculino
+C0181;2026-06-23;2026-06-29;Auxiliar de Operação;Higiene e Beleza;Noturno;38;Masculino
+C0182;2026-01-14;;Operador de Empilhadeira;Medicamentos;Noturno;24;Masculino
+C0183;2026-08-23;;Auxiliar de Operação;Medicamentos;Diurno;38;Masculino
+C0184;2026-08-01;;Operador de Empilhadeira;Higiene e Beleza;Diurno;30;Masculino
+C0185;2026-05-20;2026-06-19;Conferente;Higiene e Beleza;Diurno;37;Masculino
+C0186;2026-04-26;;Auxiliar de Operação;Medicamentos;Noturno;26;Feminino
+C0187;2026-07-05;;Conferente;Medicamentos;Noturno;26;Feminino
+C0188;2026-05-15;2026-06-03;Auxiliar de Operação;Medicamentos;Noturno;21;Masculino
+C0189;2026-04-28;2026-10-23;Auxiliar de Operação;Higiene e Beleza;Noturno;35;Masculino
+C0190;2026-03-22;2026-09-23;Conferente;Medicamentos;Noturno;38;Feminino
+C0191;2026-04-21;;Auxiliar de Operação;Higiene e Beleza;Noturno;47;Masculino
+C0192;2026-07-02;2026-08-27;Auxiliar de Operação;Medicamentos;Diurno;40;Feminino
+C0193;2026-01-18;;Auxiliar de Operação;Higiene e Beleza;Noturno;32;Masculino
+C0194;2026-01-10;;Conferente;Higiene e Beleza;Noturno;28;Masculino
+C0195;2026-06-25;2026-07-12;Conferente;Medicamentos;Diurno;33;Feminino
+C0196;2026-04-03;;Auxiliar de Operação;Medicamentos;Diurno;30;Feminino
+C0197;2026-07-15;2026-09-09;Auxiliar de Operação;Medicamentos;Diurno;42;Feminino
+C0198;2026-01-12;2026-02-01;Auxiliar de Operação;Higiene e Beleza;Noturno;38;Feminino
+C0199;2026-08-08;;Auxiliar de Operação;Medicamentos;Noturno;23;Masculino
+C0200;2026-02-03;;Auxiliar de Operação;Medicamentos;Diurno;24;Feminino
+C0201;2026-04-13;;Auxiliar de Operação;Medicamentos;Noturno;41;Feminino
+C0202;2026-08-23;2026-10-06;Auxiliar de Operação;Medicamentos;Noturno;32;Masculino
+C0203;2026-01-30;2026-02-11;Auxiliar de Operação;Higiene e Beleza;Diurno;28;Masculino
+C0204;2026-06-10;;Auxiliar de Operação;Higiene e Beleza;Diurno;39;Masculino
+C0205;2026-06-27;2026-08-10;Auxiliar de Operação;Higiene e Beleza;Diurno;27;Masculino
+C0206;2026-04-16;2026-06-08;Auxiliar de Operação;Higiene e Beleza;Diurno;28;Masculino
+C0207;2026-01-23;2026-03-14;Auxiliar de Operação;Higiene e Beleza;Diurno;26;Feminino
+C0208;2026-05-09;;Auxiliar de Operação;Medicamentos;Diurno;18;Masculino
+C0209;2026-04-18;2026-04-25;Auxiliar de Operação;Higiene e Beleza;Noturno;37;Masculino
+C0210;2026-07-31;;Auxiliar de Operação;Higiene e Beleza;Diurno;20;Feminino
+C0211;2026-06-16;2026-07-04;Auxiliar de Operação;Higiene e Beleza;Noturno;25;Masculino
+C0212;2026-03-27;;Conferente;Higiene e Beleza;Noturno;24;Feminino
+C0213;2026-01-18;2026-07-03;Operador de Empilhadeira;Higiene e Beleza;Noturno;36;Feminino
+C0214;2026-05-25;;Conferente;Medicamentos;Diurno;29;Feminino
+C0215;2026-03-12;2026-04-15;Auxiliar de Operação;Higiene e Beleza;Diurno;30;Masculino
+C0216;2026-06-16;2026-08-06;Auxiliar de Operação;Medicamentos;Noturno;18;Masculino
+C0217;2026-07-29;;Auxiliar de Operação;Medicamentos;Diurno;29;Masculino
+C0218;2026-03-30;;Auxiliar de Operação;Medicamentos;Diurno;18;Masculino
+C0219;2026-08-08;;Auxiliar de Operação;Medicamentos;Noturno;32;Masculino
+C0220;2026-05-08;;Operador de Empilhadeira;Medicamentos;Noturno;33;Masculino
+C0221;2026-05-11;;Conferente;Medicamentos;Diurno;30;Feminino
+C0222;2026-07-06;2026-07-09;Auxiliar de Operação;Medicamentos;Diurno;46;Masculino
+C0223;2026-07-11;;Auxiliar de Operação;Higiene e Beleza;Noturno;34;Masculino
+C0224;2026-08-09;;Conferente;Higiene e Beleza;Diurno;35;Masculino
+C0225;2026-08-30;2026-10-07;Operador de Empilhadeira;Higiene e Beleza;Noturno;31;Feminino
+C0226;2026-02-09;2026-03-23;Auxiliar de Operação;Higiene e Beleza;Diurno;28;Masculino
+C0227;2026-04-13;2026-05-04;Auxiliar de Operação;Medicamentos;Noturno;38;Feminino
+C0228;2026-08-15;2026-09-29;Auxiliar de Operação;Medicamentos;Diurno;39;Masculino
+C0229;2026-03-19;2026-05-18;Auxiliar de Operação;Medicamentos;Diurno;20;Masculino
+C0230;2026-01-06;2026-01-29;Auxiliar de Operação;Medicamentos;Diurno;38;Masculino
+C0231;2026-05-22;2026-06-28;Auxiliar de Operação;Higiene e Beleza;Diurno;34;Feminino
+C0232;2026-07-03;2026-08-28;Auxiliar de Operação;Medicamentos;Noturno;38;Feminino
+C0233;2026-06-30;2026-07-08;Auxiliar de Operação;Higiene e Beleza;Diurno;34;Masculino
+C0234;2026-07-16;2026-08-17;Auxiliar de Operação;Higiene e Beleza;Diurno;20;Masculino
+C0235;2026-06-07;2026-06-23;Auxiliar de Operação;Medicamentos;Noturno;21;Feminino
+C0236;2026-02-06;2026-03-11;Operador de Empilhadeira;Higiene e Beleza;Noturno;45;Masculino
+C0237;2026-07-25;;Auxiliar de Operação;Medicamentos;Diurno;32;Feminino
+C0238;2026-04-14;;Auxiliar de Operação;Medicamentos;Noturno;19;Masculino
+C0239;2026-07-25;;Auxiliar de Operação;Medicamentos;Diurno;33;Feminino
+C0240;2026-07-18;2026-08-13;Auxiliar de Operação;Medicamentos;Noturno;27;Masculino
+C0241;2026-08-23;2026-10-07;Auxiliar de Operação;Medicamentos;Diurno;18;Masculino
+C0242;2026-01-08;;Auxiliar de Operação;Medicamentos;Noturno;18;Masculino
+C0243;2026-07-30;2026-08-12;Auxiliar de Operação;Higiene e Beleza;Noturno;18;Feminino
+C0244;2026-06-03;;Auxiliar de Operação;Medicamentos;Noturno;32;Feminino
+C0245;2026-04-30;2026-07-25;Auxiliar de Operação;Medicamentos;Diurno;30;Feminino
+C0246;2026-07-12;2026-08-09;Auxiliar de Operação;Higiene e Beleza;Noturno;28;Feminino
+C0247;2026-08-19;;Operador de Empilhadeira;Medicamentos;Noturno;32;Feminino
+C0248;2026-05-07;2026-05-23;Conferente;Higiene e Beleza;Diurno;35;Feminino
+C0249;2026-01-25;2026-03-20;Auxiliar de Operação;Higiene e Beleza;Diurno;18;Masculino
+C0250;2026-06-26;2026-07-24;Auxiliar de Operação;Higiene e Beleza;Noturno;28;Masculino
+C0251;2026-02-28;2026-06-04;Auxiliar de Operação;Medicamentos;Noturno;23;Masculino
+C0252;2026-02-27;;Operador de Empilhadeira;Medicamentos;Diurno;20;Masculino
+C0253;2026-02-19;2026-04-01;Auxiliar de Operação;Medicamentos;Noturno;26;Masculino
+C0254;2026-02-21;2026-04-02;Conferente;Medicamentos;Diurno;29;Masculino
+C0255;2026-08-09;;Auxiliar de Operação;Medicamentos;Diurno;28;Masculino
+C0256;2026-04-01;2026-04-10;Operador de Empilhadeira;Medicamentos;Noturno;18;Masculino
+C0257;2026-01-30;2026-03-09;Auxiliar de Operação;Higiene e Beleza;Diurno;26;Feminino
+C0258;2026-02-16;;Auxiliar de Operação;Medicamentos;Diurno;46;Masculino
+C0259;2026-04-08;2026-09-14;Auxiliar de Operação;Higiene e Beleza;Diurno;22;Feminino
+C0260;2026-03-28;2026-04-27;Auxiliar de Operação;Higiene e Beleza;Diurno;18;Masculino
+C0261;2026-03-19;;Auxiliar de Operação;Medicamentos;Diurno;32;Feminino
+C0262;2026-08-18;2026-08-21;Auxiliar de Operação;Higiene e Beleza;Diurno;35;Masculino
+C0263;2026-07-30;;Auxiliar de Operação;Medicamentos;Diurno;34;Feminino
+C0264;2026-05-21;2026-07-18;Auxiliar de Operação;Medicamentos;Diurno;21;Masculino
+C0265;2026-08-27;2026-10-18;Conferente;Higiene e Beleza;Diurno;38;Feminino
+C0266;2026-03-26;;Auxiliar de Operação;Medicamentos;Diurno;24;Masculino
+C0267;2026-02-06;2026-02-19;Auxiliar de Operação;Medicamentos;Noturno;21;Masculino
+C0268;2026-03-10;2026-03-18;Conferente;Medicamentos;Noturno;25;Feminino
+C0269;2026-01-26;;Auxiliar de Operação;Higiene e Beleza;Diurno;29;Masculino
+C0270;2026-08-19;;Auxiliar de Operação;Medicamentos;Diurno;36;Feminino
+C0271;2026-02-26;;Operador de Empilhadeira;Medicamentos;Diurno;35;Feminino
+C0272;2026-04-20;;Auxiliar de Operação;Higiene e Beleza;Diurno;30;Feminino
+C0273;2026-02-22;;Auxiliar de Operação;Medicamentos;Diurno;37;Feminino
+C0274;2026-08-26;2026-09-10;Auxiliar de Operação;Higiene e Beleza;Noturno;31;Masculino
+C0275;2026-02-11;;Auxiliar de Operação;Medicamentos;Diurno;37;Feminino
+C0276;2026-05-07;2026-05-25;Auxiliar de Operação;Medicamentos;Noturno;19;Feminino
+C0277;2026-08-19;;Auxiliar de Operação;Medicamentos;Diurno;18;Feminino
+C0278;2026-05-09;2026-05-15;Auxiliar de Operação;Higiene e Beleza;Diurno;36;Masculino
+C0279;2026-08-06;;Auxiliar de Operação;Higiene e Beleza;Noturno;19;Masculino
+C0280;2026-08-06;2026-09-17;Auxiliar de Operação;Higiene e Beleza;Noturno;28;Masculino
+C0281;2026-07-06;2026-08-14;Auxiliar de Operação;Medicamentos;Diurno;29;Masculino
+C0282;2026-06-30;2026-07-24;Auxiliar de Operação;Medicamentos;Diurno;26;Masculino
+C0283;2026-05-22;;Auxiliar de Operação;Medicamentos;Diurno;26;Masculino
+C0284;2026-05-23;;Auxiliar de Operação;Medicamentos;Noturno;41;Masculino
+C0285;2026-07-21;2026-08-12;Auxiliar de Operação;Medicamentos;Diurno;18;Feminino
+C0286;2026-04-16;;Auxiliar de Operação;Medicamentos;Diurno;37;Masculino
+C0287;2026-08-18;2026-10-15;Conferente;Higiene e Beleza;Noturno;48;Masculino
+C0288;2026-08-02;;Auxiliar de Operação;Higiene e Beleza;Diurno;30;Masculino
+C0289;2026-04-04;2026-05-04;Auxiliar de Operação;Higiene e Beleza;Diurno;30;Masculino
+C0290;2026-04-12;;Auxiliar de Operação;Higiene e Beleza;Noturno;36;Masculino
+C0291;2026-06-24;2026-07-15;Auxiliar de Operação;Medicamentos;Diurno;45;Feminino
+C0292;2026-08-12;;Auxiliar de Operação;Medicamentos;Diurno;20;Feminino
+C0293;2026-01-27;2026-02-02;Auxiliar de Operação;Medicamentos;Diurno;31;Masculino
+C0294;2026-01-21;;Operador de Empilhadeira;Medicamentos;Diurno;29;Masculino
+C0295;2026-03-05;2026-07-27;Auxiliar de Operação;Medicamentos;Diurno;34;Feminino
+C0296;2026-04-17;;Auxiliar de Operação;Higiene e Beleza;Diurno;31;Feminino
+C0297;2026-02-12;;Conferente;Medicamentos;Noturno;35;Feminino
+C0298;2026-05-08;;Auxiliar de Operação;Medicamentos;Diurno;27;Masculino
+C0299;2026-05-13;2026-05-29;Operador de Empilhadeira;Medicamentos;Noturno;30;Feminino
+C0300;2026-08-19;2026-08-29;Auxiliar de Operação;Higiene e Beleza;Diurno;25;Masculino
+C0301;2026-07-01;;Operador de Empilhadeira;Higiene e Beleza;Diurno;25;Masculino
+C0302;2026-03-05;2026-03-10;Auxiliar de Operação;Higiene e Beleza;Noturno;29;Feminino
+C0303;2026-07-11;2026-10-15;Auxiliar de Operação;Medicamentos;Diurno;29;Masculino
+C0304;2026-07-15;2026-09-06;Auxiliar de Operação;Medicamentos;Noturno;21;Feminino
+C0305;2026-06-15;;Auxiliar de Operação;Medicamentos;Diurno;43;Masculino
+C0306;2026-06-15;;Auxiliar de Operação;Medicamentos;Diurno;29;Masculino
+C0307;2026-03-19;;Auxiliar de Operação;Higiene e Beleza;Diurno;19;Feminino
+C0308;2026-06-24;2026-07-02;Auxiliar de Operação;Higiene e Beleza;Diurno;39;Masculino
+C0309;2026-02-06;2026-03-04;Auxiliar de Operação;Higiene e Beleza;Diurno;24;Feminino
+C0310;2026-06-03;2026-07-17;Auxiliar de Operação;Medicamentos;Noturno;34;Masculino
+C0311;2026-08-12;2026-10-10;Auxiliar de Operação;Medicamentos;Noturno;30;Feminino
+C0312;2026-08-24;2026-08-30;Auxiliar de Operação;Higiene e Beleza;Diurno;32;Masculino
+C0313;2026-03-16;2026-03-22;Auxiliar de Operação;Higiene e Beleza;Diurno;31;Feminino
+C0314;2026-03-25;;Auxiliar de Operação;Higiene e Beleza;Noturno;25;Feminino
+C0315;2026-06-01;2026-07-12;Operador de Empilhadeira;Medicamentos;Diurno;30;Masculino
+C0316;2026-04-09;;Auxiliar de Operação;Medicamentos;Diurno;46;Masculino
+C0317;2026-06-28;2026-07-06;Auxiliar de Operação;Higiene e Beleza;Diurno;18;Feminino
+C0318;2026-02-22;2026-04-07;Auxiliar de Operação;Higiene e Beleza;Diurno;31;Masculino
+C0319;2026-02-14;2026-06-13;Conferente;Medicamentos;Noturno;33;Masculino
+C0320;2026-01-17;2026-01-25;Auxiliar de Operação;Medicamentos;Diurno;22;Feminino
+C0321;2026-04-26;2026-04-30;Auxiliar de Operação;Medicamentos;Diurno;19;Feminino
+C0322;2026-02-24;;Auxiliar de Operação;Medicamentos;Noturno;47;Masculino
+C0323;2026-03-17;2026-05-07;Auxiliar de Operação;Higiene e Beleza;Noturno;27;Feminino
+C0324;2026-08-10;2026-10-06;Auxiliar de Operação;Higiene e Beleza;Diurno;47;Feminino
+C0325;2026-07-17;;Conferente;Higiene e Beleza;Diurno;34;Masculino
+C0326;2026-07-23;2026-09-21;Auxiliar de Operação;Medicamentos;Diurno;31;Masculino
+C0327;2026-05-26;;Auxiliar de Operação;Medicamentos;Noturno;34;Masculino
+C0328;2026-01-31;2026-03-19;Auxiliar de Operação;Higiene e Beleza;Noturno;35;Masculino
+C0329;2026-07-01;;Auxiliar de Operação;Higiene e Beleza;Diurno;39;Feminino
+C0330;2026-05-28;;Auxiliar de Operação;Medicamentos;Diurno;33;Feminino
+C0331;2026-08-09;;Auxiliar de Operação;Medicamentos;Diurno;31;Feminino
+C0332;2026-04-29;;Operador de Empilhadeira;Higiene e Beleza;Diurno;31;Masculino
+C0333;2026-02-15;;Operador de Empilhadeira;Higiene e Beleza;Noturno;41;Masculino
+C0334;2026-05-26;2026-07-03;Operador de Empilhadeira;Medicamentos;Diurno;37;Feminino
+C0335;2026-04-23;;Conferente;Medicamentos;Diurno;22;Masculino
+C0336;2026-06-10;2026-07-24;Auxiliar de Operação;Higiene e Beleza;Diurno;25;Masculino
+C0337;2026-04-04;;Auxiliar de Operação;Medicamentos;Diurno;33;Feminino
+C0338;2026-03-18;2026-04-28;Auxiliar de Operação;Higiene e Beleza;Noturno;25;Masculino
+C0339;2026-02-03;;Auxiliar de Operação;Medicamentos;Diurno;27;Masculino
+C0340;2026-08-21;;Auxiliar de Operação;Medicamentos;Diurno;22;Feminino
+C0341;2026-07-03;;Auxiliar de Operação;Medicamentos;Diurno;28;Masculino
+C0342;2026-04-25;;Auxiliar de Operação;Medicamentos;Noturno;33;Masculino
+C0343;2026-03-01;2026-03-15;Auxiliar de Operação;Medicamentos;Noturno;38;Feminino
+C0344;2026-06-03;2026-07-13;Auxiliar de Operação;Medicamentos;Diurno;30;Masculino
+C0345;2026-04-13;2026-05-09;Auxiliar de Operação;Medicamentos;Noturno;47;Masculino
+C0346;2026-06-05;;Auxiliar de Operação;Medicamentos;Diurno;29;Masculino
+C0347;2026-01-26;2026-06-07;Conferente;Medicamentos;Noturno;56;Feminino
+C0348;2026-02-17;;Auxiliar de Operação;Higiene e Beleza;Diurno;38;Feminino
+C0349;2026-06-28;;Conferente;Medicamentos;Noturno;34;Feminino
+C0350;2026-01-19;;Auxiliar de Operação;Medicamentos;Diurno;26;Masculino
+C0351;2026-06-15;;Operador de Empilhadeira;Higiene e Beleza;Diurno;18;Masculino
+C0352;2026-04-12;;Conferente;Medicamentos;Noturno;29;Feminino
+C0353;2026-01-05;2026-04-02;Auxiliar de Operação;Medicamentos;Diurno;31;Masculino
+C0354;2026-07-05;2026-09-03;Auxiliar de Operação;Medicamentos;Diurno;45;Feminino
+C0355;2026-06-20;;Auxiliar de Operação;Medicamentos;Diurno;19;Masculino
+C0356;2026-07-18;;Auxiliar de Operação;Medicamentos;Diurno;45;Masculino
+C0357;2026-08-06;;Auxiliar de Operação;Higiene e Beleza;Diurno;28;Masculino
+C0358;2026-06-27;2026-07-22;Conferente;Higiene e Beleza;Diurno;36;Masculino
+C0359;2026-07-24;;Auxiliar de Operação;Medicamentos;Diurno;18;Feminino
+C0360;2026-01-31;2026-03-21;Auxiliar de Operação;Medicamentos;Diurno;31;Masculino
+C0361;2026-08-11;;Auxiliar de Operação;Higiene e Beleza;Diurno;27;Masculino
+C0362;2026-08-10;;Auxiliar de Operação;Medicamentos;Diurno;35;Masculino
+C0363;2026-06-19;2026-07-05;Auxiliar de Operação;Higiene e Beleza;Diurno;31;Masculino
+C0364;2026-07-14;;Operador de Empilhadeira;Higiene e Beleza;Diurno;21;Feminino
+C0365;2026-06-30;2026-10-23;Auxiliar de Operação;Higiene e Beleza;Diurno;38;Feminino
+C0366;2026-08-01;2026-09-16;Auxiliar de Operação;Higiene e Beleza;Noturno;36;Feminino
+C0367;2026-08-04;2026-08-10;Auxiliar de Operação;Medicamentos;Diurno;35;Feminino
+C0368;2026-05-09;2026-05-19;Auxiliar de Operação;Higiene e Beleza;Diurno;38;Feminino
+C0369;2026-07-18;2026-07-23;Operador de Empilhadeira;Medicamentos;Noturno;39;Feminino
+C0370;2026-08-10;;Auxiliar de Operação;Medicamentos;Diurno;30;Masculino
+C0371;2026-03-16;;Auxiliar de Operação;Medicamentos;Noturno;19;Masculino
+C0372;2026-01-16;;Auxiliar de Operação;Medicamentos;Noturno;19;Masculino
+C0373;2026-02-14;;Auxiliar de Operação;Higiene e Beleza;Diurno;41;Feminino
+C0374;2026-01-12;2026-02-16;Auxiliar de Operação;Higiene e Beleza;Noturno;36;Masculino
+C0375;2026-04-18;;Auxiliar de Operação;Medicamentos;Diurno;31;Masculino
+C0376;2026-01-09;2026-05-18;Auxiliar de Operação;Medicamentos;Diurno;27;Feminino
+C0377;2026-03-07;;Auxiliar de Operação;Medicamentos;Diurno;30;Masculino
+C0378;2026-03-06;2026-03-20;Auxiliar de Operação;Medicamentos;Noturno;30;Feminino
+C0379;2026-06-22;2026-07-20;Conferente;Higiene e Beleza;Noturno;27;Masculino
+C0380;2026-03-05;2026-04-08;Conferente;Higiene e Beleza;Diurno;24;Feminino
+C0381;2026-08-19;;Auxiliar de Operação;Higiene e Beleza;Noturno;47;Masculino
+C0382;2026-02-18;2026-04-17;Auxiliar de Operação;Higiene e Beleza;Diurno;32;Feminino
+C0383;2026-08-24;;Auxiliar de Operação;Higiene e Beleza;Diurno;25;Masculino
+C0384;2026-05-19;2026-09-05;Auxiliar de Operação;Medicamentos;Noturno;20;Masculino
+C0385;2026-03-04;2026-04-12;Conferente;Medicamentos;Noturno;24;Feminino
+C0386;2026-01-14;2026-03-24;Operador de Empilhadeira;Medicamentos;Diurno;36;Masculino
+C0387;2026-03-18;2026-05-16;Auxiliar de Operação;Higiene e Beleza;Noturno;36;Feminino
+C0388;2026-05-25;;Auxiliar de Operação;Medicamentos;Diurno;28;Feminino
+C0389;2026-01-30;;Operador de Empilhadeira;Medicamentos;Diurno;30;Masculino
+C0390;2026-02-13;;Operador de Empilhadeira;Medicamentos;Diurno;28;Masculino
+C0391;2026-02-01;2026-02-18;Auxiliar de Operação;Medicamentos;Noturno;21;Masculino
+C0392;2026-06-15;;Auxiliar de Operação;Higiene e Beleza;Diurno;40;Feminino
+C0393;2026-01-25;;Auxiliar de Operação;Medicamentos;Noturno;33;Feminino
+C0394;2026-01-10;2026-01-13;Auxiliar de Operação;Medicamentos;Noturno;50;Masculino
+C0395;2026-04-23;;Auxiliar de Operação;Higiene e Beleza;Diurno;24;Masculino
+C0396;2026-03-19;2026-04-15;Auxiliar de Operação;Higiene e Beleza;Diurno;29;Masculino
+C0397;2026-05-20;;Auxiliar de Operação;Higiene e Beleza;Diurno;37;Feminino
+C0398;2026-08-16;;Auxiliar de Operação;Higiene e Beleza;Diurno;28;Feminino
+C0399;2026-07-28;;Auxiliar de Operação;Medicamentos;Noturno;19;Masculino
+C0400;2026-05-13;2026-05-27;Conferente;Higiene e Beleza;Noturno;22;Masculino
+C0401;2026-06-07;2026-07-10;Auxiliar de Operação;Higiene e Beleza;Noturno;31;Feminino
+C0402;2026-07-17;;Auxiliar de Operação;Medicamentos;Diurno;33;Feminino
+C0403;2026-04-19;2026-04-24;Auxiliar de Operação;Medicamentos;Noturno;29;Masculino
+C0404;2026-06-10;;Operador de Empilhadeira;Medicamentos;Diurno;38;Feminino
+C0405;2026-02-25;;Auxiliar de Operação;Medicamentos;Noturno;38;Masculino
+C0406;2026-05-30;;Auxiliar de Operação;Medicamentos;Noturno;33;Masculino
+C0407;2026-03-02;2026-03-24;Auxiliar de Operação;Medicamentos;Noturno;30;Masculino
+C0408;2026-02-19;;Operador de Empilhadeira;Medicamentos;Diurno;28;Masculino
+C0409;2026-07-05;2026-07-22;Conferente;Medicamentos;Diurno;34;Masculino
+C0410;2026-05-21;2026-06-07;Conferente;Medicamentos;Noturno;37;Feminino
+C0411;2026-04-04;2026-05-27;Auxiliar de Operação;Medicamentos;Noturno;30;Masculino
+C0412;2026-01-14;;Auxiliar de Operação;Medicamentos;Diurno;34;Masculino
+C0413;2026-03-02;2026-03-27;Conferente;Medicamentos;Noturno;27;Feminino
+C0414;2026-07-14;;Auxiliar de Operação;Higiene e Beleza;Diurno;19;Feminino
+C0415;2026-04-26;2026-05-14;Conferente;Medicamentos;Diurno;22;Feminino
+C0416;2026-08-21;2026-09-28;Auxiliar de Operação;Medicamentos;Noturno;36;Feminino
+C0417;2026-08-07;;Auxiliar de Operação;Higiene e Beleza;Diurno;34;Masculino
+C0418;2026-07-27;;Auxiliar de Operação;Medicamentos;Diurno;43;Masculino
+C0419;2026-01-08;2026-01-18;Conferente;Medicamentos;Diurno;30;Feminino
+C0420;2026-01-17;;Conferente;Higiene e Beleza;Diurno;37;Masculino
+C0421;2026-05-22;2026-07-15;Auxiliar de Operação;Higiene e Beleza;Diurno;41;Masculino
+C0422;2026-03-26;;Conferente;Higiene e Beleza;Diurno;38;Masculino
+C0423;2026-07-24;2026-08-27;Auxiliar de Operação;Higiene e Beleza;Noturno;25;Feminino
+C0424;2026-03-21;2026-08-17;Auxiliar de Operação;Higiene e Beleza;Diurno;29;Masculino
+C0425;2026-02-10;2026-03-14;Auxiliar de Operação;Higiene e Beleza;Noturno;31;Masculino
+C0426;2026-01-31;2026-10-28;Auxiliar de Operação;Medicamentos;Noturno;22;Masculino
+C0427;2026-03-17;2026-04-27;Auxiliar de Operação;Higiene e Beleza;Diurno;34;Masculino
+C0428;2026-06-03;;Auxiliar de Operação;Medicamentos;Diurno;38;Masculino
+C0429;2026-02-04;2026-03-15;Auxiliar de Operação;Medicamentos;Diurno;26;Masculino
+C0430;2026-07-13;;Auxiliar de Operação;Medicamentos;Diurno;46;Masculino
+C0431;2026-03-18;;Auxiliar de Operação;Medicamentos;Noturno;28;Feminino
+C0432;2026-03-20;;Auxiliar de Operação;Medicamentos;Diurno;28;Feminino
+C0433;2026-06-11;;Auxiliar de Operação;Higiene e Beleza;Diurno;28;Feminino
+C0434;2026-07-29;;Auxiliar de Operação;Higiene e Beleza;Noturno;24;Masculino
+C0435;2026-04-18;2026-05-31;Auxiliar de Operação;Higiene e Beleza;Diurno;33;Feminino
+C0436;2026-07-13;2026-08-15;Auxiliar de Operação;Medicamentos;Diurno;30;Feminino
+C0437;2026-03-18;2026-05-31;Auxiliar de Operação;Higiene e Beleza;Noturno;43;Masculino
+C0438;2026-02-04;2026-02-17;Auxiliar de Operação;Higiene e Beleza;Noturno;35;Masculino
+C0439;2026-07-21;;Auxiliar de Operação;Medicamentos;Diurno;34;Masculino
+C0440;2026-07-06;2026-08-15;Conferente;Medicamentos;Noturno;28;Feminino
+C0441;2026-07-02;;Auxiliar de Operação;Medicamentos;Diurno;19;Feminino
+C0442;2026-08-03;2026-09-01;Auxiliar de Operação;Medicamentos;Diurno;29;Feminino
+C0443;2026-05-03;;Conferente;Medicamentos;Diurno;23;Masculino
+C0444;2026-02-20;2026-04-17;Auxiliar de Operação;Medicamentos;Diurno;38;Feminino
+C0445;2026-05-24;;Auxiliar de Operação;Medicamentos;Diurno;30;Masculino
+C0446;2026-05-21;;Auxiliar de Operação;Higiene e Beleza;Noturno;43;Masculino
+C0447;2026-04-06;2026-05-18;Auxiliar de Operação;Medicamentos;Diurno;36;Feminino
+C0448;2026-06-06;;Auxiliar de Operação;Higiene e Beleza;Diurno;37;Masculino
+C0449;2026-03-08;2026-04-10;Auxiliar de Operação;Medicamentos;Noturno;32;Feminino
+C0450;2026-05-30;2026-06-11;Conferente;Higiene e Beleza;Diurno;32;Masculino
+C0451;2026-07-12;2026-08-21;Auxiliar de Operação;Higiene e Beleza;Noturno;35;Masculino
+C0452;2026-01-27;;Conferente;Higiene e Beleza;Diurno;37;Masculino
+C0453;2026-04-22;2026-04-28;Auxiliar de Operação;Medicamentos;Diurno;24;Masculino
+C0454;2026-06-11;;Auxiliar de Operação;Higiene e Beleza;Diurno;34;Masculino
+C0455;2026-01-17;2026-02-02;Conferente;Higiene e Beleza;Noturno;51;Feminino
+C0456;2026-06-04;2026-06-27;Auxiliar de Operação;Medicamentos;Diurno;29;Feminino
+C0457;2026-08-10;2026-09-13;Conferente;Medicamentos;Noturno;28;Masculino
+C0458;2026-07-20;2026-08-12;Conferente;Medicamentos;Noturno;24;Masculino
+C0459;2026-06-17;2026-07-22;Conferente;Medicamentos;Noturno;18;Masculino
+C0460;2026-07-15;2026-09-12;Auxiliar de Operação;Medicamentos;Diurno;40;Masculino
+C0461;2026-04-01;2026-04-06;Auxiliar de Operação;Medicamentos;Diurno;30;Feminino
+C0462;2026-03-23;2026-04-06;Auxiliar de Operação;Medicamentos;Noturno;32;Masculino
+C0463;2026-01-24;;Auxiliar de Operação;Higiene e Beleza;Noturno;45;Feminino
+C0464;2026-06-25;;Conferente;Medicamentos;Diurno;50;Masculino
+C0465;2026-03-20;;Auxiliar de Operação;Medicamentos;Diurno;23;Feminino
+C0466;2026-07-30;;Auxiliar de Operação;Medicamentos;Diurno;38;Feminino
+C0467;2026-04-25;;Auxiliar de Operação;Medicamentos;Diurno;35;Feminino
+C0468;2026-08-05;2026-09-29;Auxiliar de Operação;Medicamentos;Diurno;33;Feminino
+C0469;2026-02-06;2026-02-13;Conferente;Higiene e Beleza;Diurno;34;Masculino
+C0470;2026-02-12;;Auxiliar de Operação;Medicamentos;Diurno;30;Feminino
+C0471;2026-03-28;;Auxiliar de Operação;Medicamentos;Diurno;43;Feminino
+C0472;2026-01-11;;Auxiliar de Operação;Medicamentos;Diurno;35;Masculino
+C0473;2026-05-02;2026-06-28;Auxiliar de Operação;Medicamentos;Diurno;33;Masculino
+C0474;2026-06-08;;Auxiliar de Operação;Higiene e Beleza;Noturno;40;Feminino
+C0475;2026-06-11;;Auxiliar de Operação;Higiene e Beleza;Diurno;37;Masculino
+C0476;2026-02-25;;Auxiliar de Operação;Medicamentos;Diurno;34;Feminino
+C0477;2026-02-13;;Auxiliar de Operação;Medicamentos;Noturno;33;Feminino
+C0478;2026-05-19;2026-06-05;Auxiliar de Operação;Medicamentos;Diurno;44;Masculino
+C0479;2026-06-04;;Conferente;Medicamentos;Diurno;34;Feminino
+C0480;2026-08-17;2026-08-30;Auxiliar de Operação;Higiene e Beleza;Noturno;29;Masculino
+C0481;2026-08-06;;Auxiliar de Operação;Higiene e Beleza;Noturno;23;Feminino
+C0482;2026-04-05;2026-04-23;Auxiliar de Operação;Higiene e Beleza;Noturno;27;Masculino
+C0483;2026-02-12;;Auxiliar de Operação;Higiene e Beleza;Diurno;22;Masculino
+C0484;2026-03-06;2026-03-16;Conferente;Medicamentos;Diurno;31;Masculino
+C0485;2026-08-02;;Operador de Empilhadeira;Medicamentos;Diurno;32;Masculino
+C0486;2026-04-23;;Auxiliar de Operação;Medicamentos;Diurno;18;Feminino
+C0487;2026-08-29;;Operador de Empilhadeira;Higiene e Beleza;Diurno;30;Feminino
+C0488;2026-06-10;;Auxiliar de Operação;Medicamentos;Diurno;35;Feminino
+C0489;2026-05-26;2026-06-21;Auxiliar de Operação;Medicamentos;Noturno;31;Masculino
+C0490;2026-01-29;2026-02-24;Auxiliar de Operação;Higiene e Beleza;Diurno;22;Feminino
+C0491;2026-05-25;;Auxiliar de Operação;Medicamentos;Diurno;40;Feminino
+C0492;2026-04-05;;Auxiliar de Operação;Medicamentos;Noturno;24;Masculino
+C0493;2026-07-24;2026-08-11;Auxiliar de Operação;Medicamentos;Diurno;20;Masculino
+C0494;2026-02-05;2026-03-02;Auxiliar de Operação;Higiene e Beleza;Diurno;21;Masculino
+C0495;2026-02-19;2026-04-02;Auxiliar de Operação;Medicamentos;Diurno;30;Feminino
+C0496;2026-06-11;;Auxiliar de Operação;Medicamentos;Noturno;38;Feminino
+C0497;2026-06-15;2026-07-22;Auxiliar de Operação;Medicamentos;Noturno;39;Masculino
+C0498;2026-07-21;2026-08-13;Auxiliar de Operação;Higiene e Beleza;Diurno;32;Feminino
+C0499;2026-05-09;;Auxiliar de Operação;Medicamentos;Noturno;20;Feminino
+C0500;2026-04-04;;Conferente;Higiene e Beleza;Diurno;25;Masculino
+C0501;2026-03-18;;Auxiliar de Operação;Medicamentos;Diurno;23;Feminino
+C0502;2026-04-03;2026-04-16;Auxiliar de Operação;Higiene e Beleza;Diurno;29;Masculino
+C0503;2026-06-11;2026-08-10;Auxiliar de Operação;Medicamentos;Noturno;18;Feminino
+C0504;2026-05-13;2026-06-24;Auxiliar de Operação;Higiene e Beleza;Noturno;31;Masculino
+C0505;2026-03-16;;Auxiliar de Operação;Medicamentos;Noturno;35;Masculino
+C0506;2026-02-25;;Conferente;Higiene e Beleza;Diurno;29;Masculino
+C0507;2026-06-23;2026-07-14;Operador de Empilhadeira;Higiene e Beleza;Diurno;34;Masculino
+C0508;2026-03-04;2026-03-12;Auxiliar de Operação;Medicamentos;Noturno;23;Feminino
+C0509;2026-02-23;;Auxiliar de Operação;Medicamentos;Diurno;18;Masculino
+C0510;2026-03-24;;Operador de Empilhadeira;Higiene e Beleza;Diurno;25;Masculino
+C0511;2026-07-27;;Conferente;Medicamentos;Noturno;39;Feminino
+C0512;2026-04-23;;Auxiliar de Operação;Medicamentos;Noturno;38;Masculino
+C0513;2026-05-26;2026-08-29;Conferente;Higiene e Beleza;Noturno;26;Masculino
+C0514;2026-01-24;2026-05-28;Auxiliar de Operação;Medicamentos;Diurno;40;Masculino
+C0515;2026-03-27;;Conferente;Medicamentos;Diurno;27;Masculino
+C0516;2026-07-03;;Auxiliar de Operação;Medicamentos;Diurno;42;Masculino
+C0517;2026-07-07;2026-07-20;Auxiliar de Operação;Medicamentos;Noturno;34;Masculino
+C0518;2026-05-22;2026-07-14;Auxiliar de Operação;Medicamentos;Noturno;26;Masculino
+C0519;2026-08-01;;Auxiliar de Operação;Medicamentos;Diurno;36;Masculino
+C0520;2026-03-17;2026-07-01;Auxiliar de Operação;Medicamentos;Noturno;24;Masculino
+C0521;2026-02-13;;Auxiliar de Operação;Medicamentos;Diurno;23;Masculino
+C0522;2026-01-23;;Auxiliar de Operação;Medicamentos;Diurno;18;Feminino
+C0523;2026-02-21;2026-03-12;Conferente;Higiene e Beleza;Diurno;32;Feminino
+C0524;2026-07-05;;Auxiliar de Operação;Medicamentos;Diurno;30;Feminino
+C0525;2026-08-08;2026-08-23;Operador de Empilhadeira;Medicamentos;Diurno;29;Feminino
+C0526;2026-02-05;;Auxiliar de Operação;Medicamentos;Diurno;27;Feminino
+C0527;2026-05-04;;Auxiliar de Operação;Medicamentos;Noturno;42;Masculino
+C0528;2026-02-05;2026-08-01;Auxiliar de Operação;Medicamentos;Diurno;27;Masculino
+C0529;2026-07-25;2026-08-05;Auxiliar de Operação;Medicamentos;Noturno;24;Masculino
+C0530;2026-02-05;2026-04-03;Auxiliar de Operação;Medicamentos;Noturno;40;Masculino
+C0531;2026-06-06;;Operador de Empilhadeira;Higiene e Beleza;Diurno;41;Masculino
+C0532;2026-01-24;;Auxiliar de Operação;Higiene e Beleza;Diurno;33;Feminino
+C0533;2026-06-29;;Conferente;Higiene e Beleza;Noturno;18;Masculino
+C0534;2026-08-08;2026-09-12;Auxiliar de Operação;Medicamentos;Diurno;25;Feminino
+C0535;2026-06-28;;Conferente;Medicamentos;Diurno;35;Feminino
+C0536;2026-03-10;2026-09-12;Conferente;Medicamentos;Diurno;30;Masculino
+C0537;2026-07-24;;Auxiliar de Operação;Medicamentos;Noturno;42;Feminino
+C0538;2026-03-18;2026-04-22;Auxiliar de Operação;Higiene e Beleza;Diurno;19;Masculino
+C0539;2026-07-03;2026-09-13;Auxiliar de Operação;Medicamentos;Diurno;35;Masculino
+C0540;2026-07-22;2026-08-23;Auxiliar de Operação;Medicamentos;Diurno;25;Masculino
+C0541;2026-04-30;2026-06-22;Auxiliar de Operação;Higiene e Beleza;Diurno;41;Feminino
+C0542;2026-06-01;2026-06-29;Auxiliar de Operação;Higiene e Beleza;Diurno;29;Feminino
+C0543;2026-07-27;;Auxiliar de Operação;Medicamentos;Noturno;38;Masculino
+C0544;2026-02-18;2026-03-07;Auxiliar de Operação;Higiene e Beleza;Noturno;25;Feminino
+C0545;2026-01-09;2026-05-22;Auxiliar de Operação;Medicamentos;Diurno;19;Feminino
+C0546;2026-04-18;;Auxiliar de Operação;Higiene e Beleza;Diurno;21;Masculino
+C0547;2026-02-17;2026-02-21;Conferente;Medicamentos;Diurno;25;Feminino
+C0548;2026-08-03;;Auxiliar de Operação;Higiene e Beleza;Noturno;22;Masculino
+C0549;2026-07-30;2026-08-19;Auxiliar de Operação;Medicamentos;Noturno;40;Masculino
+C0550;2026-04-04;2026-05-14;Auxiliar de Operação;Medicamentos;Noturno;41;Masculino
+C0551;2026-03-19;;Auxiliar de Operação;Higiene e Beleza;Diurno;32;Masculino
+C0552;2026-06-23;;Auxiliar de Operação;Higiene e Beleza;Diurno;22;Masculino
+C0553;2026-04-22;2026-04-29;Conferente;Higiene e Beleza;Noturno;29;Feminino
+C0554;2026-01-28;;Conferente;Higiene e Beleza;Diurno;25;Masculino
+C0555;2026-06-11;2026-08-02;Operador de Empilhadeira;Medicamentos;Noturno;42;Feminino
+C0556;2026-06-27;;Conferente;Medicamentos;Diurno;33;Feminino
+C0557;2026-01-21;2026-07-19;Auxiliar de Operação;Medicamentos;Diurno;34;Feminino
+C0558;2026-07-08;;Auxiliar de Operação;Medicamentos;Noturno;27;Feminino
+C0559;2026-05-12;2026-06-15;Operador de Empilhadeira;Higiene e Beleza;Diurno;18;Feminino
+C0560;2026-07-20;;Auxiliar de Operação;Medicamentos;Diurno;24;Feminino
+C0561;2026-07-26;;Auxiliar de Operação;Medicamentos;Diurno;21;Masculino
+C0562;2026-06-14;2026-07-16;Auxiliar de Operação;Medicamentos;Noturno;33;Feminino
+C0563;2026-03-25;;Conferente;Medicamentos;Diurno;31;Feminino
+C0564;2026-04-03;;Auxiliar de Operação;Medicamentos;Diurno;24;Masculino
+C0565;2026-06-26;2026-08-01;Auxiliar de Operação;Medicamentos;Diurno;27;Feminino
+C0566;2026-01-20;2026-07-27;Auxiliar de Operação;Higiene e Beleza;Diurno;43;Masculino
+C0567;2026-02-28;;Conferente;Higiene e Beleza;Diurno;22;Feminino
+C0568;2026-05-08;2026-09-16;Auxiliar de Operação;Medicamentos;Diurno;23;Masculino
+C0569;2026-08-17;;Auxiliar de Operação;Higiene e Beleza;Diurno;28;Feminino
+C0570;2026-07-04;;Auxiliar de Operação;Higiene e Beleza;Noturno;24;Masculino
+C0571;2026-07-18;2026-07-22;Auxiliar de Operação;Medicamentos;Diurno;27;Masculino
+C0572;2026-02-19;2026-04-03;Conferente;Higiene e Beleza;Noturno;34;Feminino
+C0573;2026-03-12;2026-03-28;Auxiliar de Operação;Higiene e Beleza;Noturno;44;Masculino
+C0574;2026-03-09;2026-10-11;Auxiliar de Operação;Higiene e Beleza;Diurno;18;Masculino
+C0575;2026-07-02;2026-10-21;Operador de Empilhadeira;Medicamentos;Diurno;30;Feminino
+C0576;2026-05-12;;Auxiliar de Operação;Higiene e Beleza;Noturno;30;Feminino
+C0577;2026-02-24;;Auxiliar de Operação;Higiene e Beleza;Diurno;29;Masculino
+C0578;2026-07-02;2026-07-07;Auxiliar de Operação;Medicamentos;Noturno;29;Feminino
+C0579;2026-06-05;;Auxiliar de Operação;Medicamentos;Diurno;27;Masculino
+C0580;2026-08-06;2026-09-27;Auxiliar de Operação;Higiene e Beleza;Noturno;38;Masculino
+C0581;2026-05-17;;Auxiliar de Operação;Higiene e Beleza;Diurno;26;Masculino
+C0582;2026-02-03;2026-04-18;Auxiliar de Operação;Medicamentos;Noturno;29;Feminino
+C0583;2026-08-04;;Operador de Empilhadeira;Higiene e Beleza;Noturno;30;Masculino
+C0584;2026-02-17;;Conferente;Medicamentos;Diurno;31;Masculino
+C0585;2026-01-18;2026-02-02;Auxiliar de Operação;Higiene e Beleza;Noturno;29;Masculino
+C0586;2026-07-14;;Conferente;Medicamentos;Diurno;38;Feminino
+C0587;2026-04-22;;Conferente;Medicamentos;Diurno;30;Masculino
+C0588;2026-06-07;2026-06-11;Auxiliar de Operação;Medicamentos;Diurno;31;Masculino
+C0589;2026-02-04;;Auxiliar de Operação;Medicamentos;Diurno;30;Masculino
+C0590;2026-06-25;2026-09-25;Conferente;Higiene e Beleza;Diurno;22;Feminino
+C0591;2026-04-11;;Auxiliar de Operação;Medicamentos;Noturno;23;Masculino
+C0592;2026-08-30;;Auxiliar de Operação;Medicamentos;Diurno;22;Masculino
+C0593;2026-06-05;2026-07-25;Auxiliar de Operação;Higiene e Beleza;Noturno;32;Masculino
+C0594;2026-08-16;;Auxiliar de Operação;Medicamentos;Noturno;24;Feminino
+C0595;2026-07-12;2026-07-28;Auxiliar de Operação;Medicamentos;Noturno;22;Masculino
+C0596;2026-07-24;;Auxiliar de Operação;Higiene e Beleza;Noturno;32;Feminino
+C0597;2026-01-25;;Auxiliar de Operação;Medicamentos;Noturno;34;Masculino
+C0598;2026-07-08;2026-10-30;Auxiliar de Operação;Higiene e Beleza;Diurno;18;Masculino
+C0599;2026-05-28;2026-07-06;Auxiliar de Operação;Higiene e Beleza;Noturno;44;Masculino
+C0600;2026-04-09;2026-05-08;Auxiliar de Operação;Medicamentos;Diurno;30;Feminino
+C0601;2026-03-20;;Auxiliar de Operação;Higiene e Beleza;Noturno;29;Masculino
+C0602;2026-06-06;;Auxiliar de Operação;Higiene e Beleza;Noturno;39;Feminino
+C0603;2026-02-21;2026-08-22;Auxiliar de Operação;Higiene e Beleza;Noturno;31;Feminino
+C0604;2026-02-17;;Operador de Empilhadeira;Medicamentos;Diurno;25;Feminino
+C0605;2026-08-01;;Auxiliar de Operação;Medicamentos;Diurno;48;Feminino
+C0606;2026-07-04;;Conferente;Medicamentos;Diurno;21;Masculino
+C0607;2026-05-25;;Auxiliar de Operação;Medicamentos;Diurno;29;Masculino
+C0608;2026-07-04;;Operador de Empilhadeira;Medicamentos;Diurno;37;Masculino
+C0609;2026-03-22;;Auxiliar de Operação;Higiene e Beleza;Diurno;21;Masculino
+C0610;2026-06-25;2026-07-07;Auxiliar de Operação;Higiene e Beleza;Noturno;29;Feminino
+C0611;2026-02-22;2026-03-11;Operador de Empilhadeira;Medicamentos;Noturno;33;Masculino
+C0612;2026-04-20;;Auxiliar de Operação;Higiene e Beleza;Diurno;49;Masculino
+C0613;2026-02-09;;Operador de Empilhadeira;Medicamentos;Diurno;23;Feminino
+C0614;2026-04-05;;Auxiliar de Operação;Medicamentos;Diurno;30;Masculino
+C0615;2026-03-26;;Auxiliar de Operação;Medicamentos;Diurno;35;Feminino
+C0616;2026-04-14;;Conferente;Higiene e Beleza;Diurno;31;Masculino
+C0617;2026-04-28;2026-07-22;Auxiliar de Operação;Medicamentos;Diurno;20;Masculino
+C0618;2026-01-12;2026-02-07;Auxiliar de Operação;Higiene e Beleza;Diurno;33;Masculino
+C0619;2026-03-27;;Operador de Empilhadeira;Higiene e Beleza;Diurno;31;Masculino
+C0620;2026-07-24;;Auxiliar de Operação;Medicamentos;Diurno;34;Feminino
+C0621;2026-04-18;2026-08-06;Operador de Empilhadeira;Higiene e Beleza;Noturno;39;Masculino
+C0622;2026-05-14;2026-06-21;Auxiliar de Operação;Medicamentos;Diurno;38;Feminino
+C0623;2026-01-29;;Auxiliar de Operação;Higiene e Beleza;Diurno;33;Masculino
+C0624;2026-04-07;2026-05-02;Auxiliar de Operação;Higiene e Beleza;Diurno;32;Feminino
+C0625;2026-08-23;2026-10-17;Auxiliar de Operação;Higiene e Beleza;Noturno;21;Masculino
+C0626;2026-05-15;;Auxiliar de Operação;Higiene e Beleza;Diurno;29;Masculino
+C0627;2026-01-09;2026-01-18;Conferente;Higiene e Beleza;Noturno;32;Feminino
+C0628;2026-06-25;;Auxiliar de Operação;Higiene e Beleza;Diurno;27;Masculino
+C0629;2026-07-07;2026-07-24;Auxiliar de Operação;Medicamentos;Noturno;31;Masculino
+C0630;2026-04-05;;Auxiliar de Operação;Medicamentos;Diurno;23;Feminino
+C0631;2026-01-12;;Auxiliar de Operação;Medicamentos;Diurno;42;Masculino
+C0632;2026-07-21;2026-09-15;Auxiliar de Operação;Medicamentos;Noturno;47;Masculino
+C0633;2026-03-06;;Auxiliar de Operação;Medicamentos;Noturno;27;Feminino
+C0634;2026-08-11;;Auxiliar de Operação;Higiene e Beleza;Diurno;33;Masculino
+C0635;2026-04-01;2026-05-21;Auxiliar de Operação;Higiene e Beleza;Diurno;28;Masculino
+C0636;2026-04-07;;Auxiliar de Operação;Medicamentos;Noturno;40;Masculino
+C0637;2026-07-12;2026-08-15;Auxiliar de Operação;Higiene e Beleza;Diurno;33;Masculino
+C0638;2026-02-06;2026-07-29;Operador de Empilhadeira;Medicamentos;Diurno;31;Masculino
+C0639;2026-01-12;2026-02-20;Auxiliar de Operação;Medicamentos;Noturno;28;Feminino
+C0640;2026-07-04;;Operador de Empilhadeira;Higiene e Beleza;Diurno;31;Feminino
+C0641;2026-08-13;;Auxiliar de Operação;Higiene e Beleza;Diurno;22;Feminino
+C0642;2026-08-29;2026-10-15;Auxiliar de Operação;Higiene e Beleza;Diurno;35;Feminino
+C0643;2026-02-04;;Auxiliar de Operação;Medicamentos;Diurno;24;Masculino
+C0644;2026-02-09;;Auxiliar de Operação;Medicamentos;Diurno;34;Masculino
+C0645;2026-03-26;;Auxiliar de Operação;Higiene e Beleza;Diurno;31;Masculino
+C0646;2026-06-23;;Auxiliar de Operação;Medicamentos;Diurno;39;Masculino
+C0647;2026-08-10;;Auxiliar de Operação;Higiene e Beleza;Diurno;30;Masculino
+C0648;2026-07-20;;Auxiliar de Operação;Higiene e Beleza;Noturno;38;Feminino
+C0649;2026-04-04;2026-04-26;Auxiliar de Operação;Medicamentos;Noturno;23;Masculino
+C0650;2026-08-12;;Auxiliar de Operação;Higiene e Beleza;Diurno;35;Masculino
+C0651;2026-03-07;2026-03-27;Auxiliar de Operação;Medicamentos;Diurno;28;Feminino
+C0652;2026-02-03;;Operador de Empilhadeira;Higiene e Beleza;Diurno;32;Feminino
+C0653;2026-04-18;2026-05-16;Auxiliar de Operação;Higiene e Beleza;Noturno;31;Masculino
+C0654;2026-01-26;2026-03-13;Auxiliar de Operação;Medicamentos;Diurno;37;Masculino
+C0655;2026-06-15;;Auxiliar de Operação;Medicamentos;Noturno;18;Feminino
+C0656;2026-08-28;;Auxiliar de Operação;Higiene e Beleza;Diurno;33;Masculino
+C0657;2026-01-30;;Auxiliar de Operação;Medicamentos;Diurno;18;Feminino
+C0658;2026-02-01;2026-03-09;Auxiliar de Operação;Medicamentos;Diurno;40;Feminino
+C0659;2026-02-16;2026-05-24;Auxiliar de Operação;Higiene e Beleza;Diurno;18;Feminino
+C0660;2026-02-16;2026-03-25;Conferente;Higiene e Beleza;Noturno;22;Masculino
+C0661;2026-05-12;;Auxiliar de Operação;Medicamentos;Noturno;18;Masculino
+C0662;2026-05-21;2026-07-19;Auxiliar de Operação;Higiene e Beleza;Diurno;43;Masculino
+C0663;2026-08-19;;Auxiliar de Operação;Medicamentos;Noturno;20;Masculino
+C0664;2026-04-21;2026-05-11;Conferente;Medicamentos;Noturno;31;Feminino
+C0665;2026-08-13;;Auxiliar de Operação;Higiene e Beleza;Diurno;26;Masculino
+C0666;2026-07-02;;Auxiliar de Operação;Medicamentos;Diurno;18;Feminino
+C0667;2026-07-27;;Auxiliar de Operação;Higiene e Beleza;Noturno;27;Masculino
+C0668;2026-02-19;;Conferente;Higiene e Beleza;Diurno;35;Feminino
+C0669;2026-04-23;2026-05-05;Auxiliar de Operação;Medicamentos;Noturno;29;Masculino
+C0670;2026-08-10;;Auxiliar de Operação;Medicamentos;Noturno;38;Masculino
+C0671;2026-07-02;2026-08-21;Auxiliar de Operação;Higiene e Beleza;Diurno;27;Masculino
+C0672;2026-02-25;2026-04-21;Auxiliar de Operação;Higiene e Beleza;Noturno;30;Feminino
+C0673;2026-07-25;2026-07-30;Auxiliar de Operação;Higiene e Beleza;Diurno;27;Masculino
+C0674;2026-07-07;;Operador de Empilhadeira;Medicamentos;Diurno;33;Feminino
+C0675;2026-02-08;;Auxiliar de Operação;Higiene e Beleza;Diurno;45;Masculino
+C0676;2026-01-21;2026-02-12;Auxiliar de Operação;Higiene e Beleza;Noturno;33;Masculino
+C0677;2026-03-07;;Conferente;Medicamentos;Diurno;32;Feminino
+C0678;2026-04-27;;Operador de Empilhadeira;Medicamentos;Noturno;25;Masculino
+C0679;2026-02-10;;Conferente;Medicamentos;Diurno;24;Masculino
+C0680;2026-01-12;;Auxiliar de Operação;Medicamentos;Noturno;42;Feminino
+C0681;2026-01-31;2026-07-24;Auxiliar de Operação;Medicamentos;Noturno;21;Masculino
+C0682;2026-03-20;;Auxiliar de Operação;Medicamentos;Diurno;23;Feminino
+C0683;2026-04-07;2026-05-22;Auxiliar de Operação;Medicamentos;Noturno;29;Feminino
+C0684;2026-03-20;;Conferente;Higiene e Beleza;Noturno;27;Masculino
+C0685;2026-04-21;2026-06-18;Operador de Empilhadeira;Medicamentos;Diurno;46;Masculino
+C0686;2026-06-25;2026-08-07;Conferente;Higiene e Beleza;Diurno;18;Masculino
+C0687;2026-03-04;;Auxiliar de Operação;Medicamentos;Diurno;33;Masculino
+C0688;2026-04-23;2026-06-01;Auxiliar de Operação;Medicamentos;Diurno;36;Masculino
+C0689;2026-06-27;2026-07-16;Auxiliar de Operação;Higiene e Beleza;Diurno;21;Feminino
+C0690;2026-01-18;;Auxiliar de Operação;Medicamentos;Diurno;25;Masculino
+C0691;2026-08-16;2026-09-22;Auxiliar de Operação;Higiene e Beleza;Diurno;33;Masculino
+C0692;2026-08-29;2026-09-29;Auxiliar de Operação;Medicamentos;Noturno;43;Masculino
+C0693;2026-03-15;2026-05-10;Auxiliar de Operação;Higiene e Beleza;Noturno;23;Masculino
+C0694;2026-08-04;2026-08-23;Auxiliar de Operação;Higiene e Beleza;Noturno;18;Masculino
+C0695;2026-03-06;2026-08-18;Auxiliar de Operação;Medicamentos;Diurno;38;Feminino
+C0696;2026-08-11;;Auxiliar de Operação;Medicamentos;Diurno;42;Masculino
+C0697;2026-06-11;2026-07-29;Auxiliar de Operação;Higiene e Beleza;Diurno;27;Feminino
+C0698;2026-03-04;;Auxiliar de Operação;Medicamentos;Diurno;18;Masculino
+C0699;2026-01-19;2026-02-21;Auxiliar de Operação;Higiene e Beleza;Noturno;42;Masculino
+C0700;2026-04-08;2026-05-16;Auxiliar de Operação;Medicamentos;Diurno;28;Feminino
+C0701;2026-07-01;;Auxiliar de Operação;Medicamentos;Noturno;39;Masculino
+C0702;2026-02-28;2026-04-24;Auxiliar de Operação;Higiene e Beleza;Noturno;30;Feminino
+C0703;2026-05-07;2026-06-06;Auxiliar de Operação;Higiene e Beleza;Diurno;27;Feminino
+C0704;2026-02-03;2026-02-19;Auxiliar de Operação;Higiene e Beleza;Noturno;26;Masculino
+C0705;2026-04-16;2026-04-23;Auxiliar de Operação;Higiene e Beleza;Diurno;42;Masculino
+C0706;2026-01-12;2026-03-11;Auxiliar de Operação;Medicamentos;Noturno;41;Masculino
+C0707;2026-08-27;;Auxiliar de Operação;Medicamentos;Diurno;18;Masculino
+C0708;2026-05-04;2026-06-04;Auxiliar de Operação;Higiene e Beleza;Diurno;23;Masculino
+C0709;2026-07-24;2026-09-12;Auxiliar de Operação;Higiene e Beleza;Noturno;44;Masculino
+C0710;2026-02-03;;Auxiliar de Operação;Higiene e Beleza;Diurno;27;Feminino
+C0711;2026-02-13;2026-03-18;Auxiliar de Operação;Higiene e Beleza;Diurno;19;Feminino
+C0712;2026-02-15;2026-03-05;Auxiliar de Operação;Medicamentos;Diurno;30;Feminino
+C0713;2026-05-20;2026-06-02;Conferente;Higiene e Beleza;Diurno;29;Masculino
+C0714;2026-07-28;2026-09-09;Auxiliar de Operação;Higiene e Beleza;Diurno;29;Masculino
+C0715;2026-05-29;2026-06-08;Auxiliar de Operação;Higiene e Beleza;Noturno;26;Masculino
+C0716;2026-04-30;2026-06-13;Auxiliar de Operação;Higiene e Beleza;Noturno;28;Feminino
+C0717;2026-08-17;;Conferente;Higiene e Beleza;Diurno;26;Masculino
+C0718;2026-02-17;;Auxiliar de Operação;Higiene e Beleza;Diurno;33;Masculino
+C0719;2026-02-13;2026-02-17;Auxiliar de Operação;Medicamentos;Noturno;23;Feminino
+C0720;2026-06-13;;Conferente;Higiene e Beleza;Diurno;28;Feminino
+C0721;2026-07-27;;Auxiliar de Operação;Medicamentos;Noturno;29;Masculino
+C0722;2026-03-09;;Operador de Empilhadeira;Higiene e Beleza;Diurno;40;Masculino
+C0723;2026-03-08;;Auxiliar de Operação;Medicamentos;Noturno;33;Masculino
+C0724;2026-05-10;;Conferente;Medicamentos;Diurno;29;Feminino
+C0725;2026-07-09;;Auxiliar de Operação;Higiene e Beleza;Noturno;34;Masculino
+C0726;2026-03-13;2026-06-23;Auxiliar de Operação;Medicamentos;Noturno;33;Feminino
+C0727;2026-07-20;;Conferente;Medicamentos;Noturno;39;Masculino
+C0728;2026-05-07;;Auxiliar de Operação;Medicamentos;Diurno;34;Masculino
+C0729;2026-06-21;2026-08-15;Auxiliar de Operação;Higiene e Beleza;Noturno;44;Feminino
+C0730;2026-06-03;;Auxiliar de Operação;Medicamentos;Diurno;41;Masculino
+C0731;2026-04-29;2026-06-28;Auxiliar de Operação;Higiene e Beleza;Diurno;30;Masculino
+C0732;2026-05-12;;Auxiliar de Operação;Medicamentos;Diurno;27;Feminino
+C0733;2026-08-29;;Auxiliar de Operação;Medicamentos;Diurno;37;Feminino
+C0734;2026-04-09;;Operador de Empilhadeira;Higiene e Beleza;Noturno;34;Masculino
+C0735;2026-08-17;2026-08-26;Auxiliar de Operação;Higiene e Beleza;Noturno;29;Feminino
+C0736;2026-07-12;;Auxiliar de Operação;Higiene e Beleza;Diurno;18;Masculino
+C0737;2026-02-17;2026-04-02;Conferente;Higiene e Beleza;Diurno;18;Masculino
+C0738;2026-07-31;2026-08-08;Auxiliar de Operação;Medicamentos;Diurno;33;Masculino
+C0739;2026-04-06;2026-04-17;Conferente;Higiene e Beleza;Noturno;36;Masculino
+C0740;2026-02-16;;Auxiliar de Operação;Higiene e Beleza;Diurno;36;Feminino
+C0741;2026-03-06;2026-04-19;Auxiliar de Operação;Medicamentos;Diurno;20;Feminino
+C0742;2026-02-06;;Auxiliar de Operação;Higiene e Beleza;Noturno;38;Feminino
+C0743;2026-03-26;2026-05-07;Auxiliar de Operação;Higiene e Beleza;Noturno;26;Feminino
+C0744;2026-01-31;2026-03-13;Auxiliar de Operação;Medicamentos;Diurno;33;Feminino
+C0745;2026-05-14;2026-06-08;Auxiliar de Operação;Higiene e Beleza;Diurno;33;Masculino
+C0746;2026-08-26;2026-10-15;Conferente;Medicamentos;Diurno;24;Masculino
+C0747;2026-08-22;;Operador de Empilhadeira;Medicamentos;Noturno;25;Masculino
+C0748;2026-08-17;;Auxiliar de Operação;Higiene e Beleza;Diurno;18;Feminino
+C0749;2026-03-04;2026-10-20;Auxiliar de Operação;Medicamentos;Diurno;23;Masculino
+C0750;2026-02-28;2026-03-04;Auxiliar de Operação;Higiene e Beleza;Diurno;18;Masculino
+C0751;2026-06-15;2026-10-03;Operador de Empilhadeira;Medicamentos;Diurno;33;Feminino
+C0752;2026-08-23;;Auxiliar de Operação;Medicamentos;Diurno;30;Feminino
+C0753;2026-07-20;2026-09-14;Auxiliar de Operação;Higiene e Beleza;Diurno;37;Feminino
+C0754;2026-02-23;;Auxiliar de Operação;Higiene e Beleza;Noturno;33;Masculino
+C0755;2026-06-29;2026-07-10;Auxiliar de Operação;Medicamentos;Diurno;25;Masculino
+C0756;2026-05-05;2026-05-25;Auxiliar de Operação;Medicamentos;Diurno;33;Feminino
+C0757;2026-04-20;;Auxiliar de Operação;Higiene e Beleza;Noturno;27;Masculino
+C0758;2026-05-03;2026-05-19;Auxiliar de Operação;Higiene e Beleza;Noturno;35;Masculino
+C0759;2026-05-14;2026-09-20;Conferente;Higiene e Beleza;Noturno;33;Masculino
+C0760;2026-08-10;;Auxiliar de Operação;Medicamentos;Diurno;22;Feminino
+C0761;2026-07-12;2026-07-22;Auxiliar de Operação;Medicamentos;Noturno;30;Masculino
+C0762;2026-01-14;;Auxiliar de Operação;Medicamentos;Diurno;30;Feminino
+C0763;2026-07-05;2026-08-26;Auxiliar de Operação;Medicamentos;Noturno;28;Masculino
+C0764;2026-03-21;2026-04-27;Auxiliar de Operação;Medicamentos;Diurno;37;Masculino
+C0765;2026-03-26;2026-04-29;Auxiliar de Operação;Medicamentos;Diurno;44;Masculino
+C0766;2026-05-27;2026-07-16;Auxiliar de Operação;Medicamentos;Noturno;27;Masculino
+C0767;2026-08-27;2026-10-20;Auxiliar de Operação;Medicamentos;Diurno;27;Feminino
+C0768;2026-01-20;2026-03-21;Conferente;Medicamentos;Noturno;18;Feminino
+C0769;2026-05-07;;Auxiliar de Operação;Medicamentos;Noturno;29;Feminino
+C0770;2026-03-02;;Conferente;Higiene e Beleza;Diurno;27;Feminino
+C0771;2026-08-10;;Auxiliar de Operação;Higiene e Beleza;Diurno;18;Feminino
+C0772;2026-04-25;2026-06-21;Auxiliar de Operação;Higiene e Beleza;Noturno;32;Masculino
+C0773;2026-07-27;;Auxiliar de Operação;Higiene e Beleza;Diurno;35;Feminino
+C0774;2026-08-02;;Auxiliar de Operação;Higiene e Beleza;Noturno;24;Feminino
+C0775;2026-01-28;2026-03-17;Auxiliar de Operação;Higiene e Beleza;Noturno;27;Masculino
+C0776;2026-07-05;2026-08-09;Auxiliar de Operação;Medicamentos;Diurno;22;Masculino
+C0777;2026-07-12;2026-09-09;Auxiliar de Operação;Higiene e Beleza;Diurno;36;Masculino
+C0778;2026-07-21;2026-09-18;Auxiliar de Operação;Medicamentos;Noturno;18;Masculino
+C0779;2026-08-28;2026-10-12;Conferente;Medicamentos;Diurno;27;Feminino
+C0780;2026-07-05;;Auxiliar de Operação;Higiene e Beleza;Diurno;46;Masculino
+C0781;2026-07-22;;Conferente;Higiene e Beleza;Diurno;30;Feminino
+C0782;2026-06-22;;Operador de Empilhadeira;Medicamentos;Diurno;34;Masculino
+C0783;2026-03-16;;Auxiliar de Operação;Higiene e Beleza;Diurno;29;Feminino
+C0784;2026-07-26;;Auxiliar de Operação;Medicamentos;Noturno;21;Feminino
+C0785;2026-06-20;2026-07-09;Auxiliar de Operação;Higiene e Beleza;Noturno;30;Masculino
+C0786;2026-06-16;2026-07-07;Auxiliar de Operação;Medicamentos;Noturno;33;Masculino
+C0787;2026-08-24;;Auxiliar de Operação;Medicamentos;Diurno;22;Masculino
+C0788;2026-06-29;2026-08-11;Conferente;Medicamentos;Diurno;33;Masculino
+C0789;2026-03-26;2026-04-11;Auxiliar de Operação;Medicamentos;Diurno;40;Masculino
+C0790;2026-03-17;2026-04-21;Auxiliar de Operação;Higiene e Beleza;Noturno;39;Feminino
+C0791;2026-03-24;2026-08-28;Auxiliar de Operação;Medicamentos;Diurno;18;Feminino
+C0792;2026-02-13;;Auxiliar de Operação;Medicamentos;Diurno;22;Feminino
+C0793;2026-01-24;;Auxiliar de Operação;Higiene e Beleza;Noturno;18;Masculino
+C0794;2026-07-04;;Conferente;Higiene e Beleza;Diurno;39;Feminino
+C0795;2026-07-10;2026-08-13;Auxiliar de Operação;Higiene e Beleza;Diurno;35;Feminino
+C0796;2026-02-13;2026-03-02;Auxiliar de Operação;Medicamentos;Diurno;36;Masculino
+C0797;2026-04-08;;Auxiliar de Operação;Medicamentos;Diurno;23;Masculino
+C0798;2026-08-11;2026-09-15;Auxiliar de Operação;Higiene e Beleza;Noturno;21;Feminino
+C0799;2026-07-23;;Auxiliar de Operação;Medicamentos;Diurno;31;Masculino
+C0800;2026-05-27;2026-07-06;Conferente;Medicamentos;Diurno;31;Masculino

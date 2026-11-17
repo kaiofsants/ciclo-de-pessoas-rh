@@ -1,0 +1,121 @@
+Req.;Cargo;Tipo Vaga;SLA Vaga;Data Requisição;Data Encer.;Situação;Dias em Aberto
+1001;Atendente I;Operacional;15;2026-05-07;2026-05-28;Finalizada;21
+1002;Atendente II;Operacional;15;2026-04-14;2026-04-29;Finalizada;15
+1003;Atendente II;Operacional;15;2026-05-07;2026-05-25;Finalizada;18
+1004;Atendente I;Operacional;15;2026-07-11;2026-08-08;Finalizada;28
+1005;Atendente II;Operacional;15;2026-07-10;2026-07-22;Finalizada;12
+1006;Atendente I;Operacional;15;2026-03-20;2026-03-31;Finalizada;11
+1007;Auxiliar Operação I;Operacional;15;2026-06-17;2026-07-07;Finalizada;20
+1008;Auxiliar Operação I;Operacional;15;2026-01-28;2026-02-10;Finalizada;13
+1009;Atendente II;Operacional;15;2026-07-27;2026-08-04;Finalizada;8
+1010;Auxiliar Operação I;Operacional;15;2026-05-06;2026-06-06;Finalizada;31
+1011;Atendente I;Operacional;15;2026-06-21;2026-07-02;Finalizada;11
+1012;Analista de Dados;Estratégico;25;2026-07-24;2026-08-10;Finalizada;17
+1013;Analista de Dados;Estratégico;25;2026-06-20;2026-08-03;Finalizada;44
+1014;Atendente I;Operacional;15;2026-03-15;2026-03-31;Finalizada;16
+1015;Atendente II;Operacional;15;2026-04-04;2026-04-19;Finalizada;15
+1016;Motorista Truck;Estratégico;25;2026-09-14;2026-10-06;Finalizada;22
+1017;Atendente I;Operacional;15;2026-04-17;2026-05-06;Finalizada;19
+1018;Auxiliar Operação I;Operacional;15;2026-03-02;2026-03-19;Finalizada;17
+1019;Atendente II;Operacional;15;2026-06-19;2026-08-04;Finalizada;46
+1020;Auxiliar Operação I;Operacional;15;2026-07-11;2026-08-01;Finalizada;21
+1021;Farmacêutico;Estratégico;25;2026-02-07;2026-03-10;Finalizada;31
+1022;Motorista Truck;Estratégico;25;2026-01-13;2026-02-25;Finalizada;43
+1023;Farmacêutico;Estratégico;25;2026-01-16;2026-02-02;Finalizada;17
+1024;Farmacêutico;Estratégico;25;2026-07-22;2026-08-08;Finalizada;17
+1025;Atendente I;Operacional;15;2026-05-27;2026-06-10;Finalizada;14
+1026;Atendente I;Operacional;15;2026-07-05;2026-07-17;Finalizada;12
+1027;Farmacêutico;Estratégico;25;2026-05-23;2026-06-24;Finalizada;32
+1028;Atendente II;Operacional;15;2026-07-16;2026-07-24;Finalizada;8
+1029;Auxiliar Operação I;Operacional;15;2026-05-06;2026-05-17;Finalizada;11
+1030;Atendente II;Operacional;15;2026-04-17;2026-05-01;Finalizada;14
+1031;Auxiliar Operação I;Operacional;15;2026-04-09;2026-04-25;Finalizada;16
+1032;Atendente I;Operacional;15;2026-09-04;2026-09-22;Finalizada;18
+1033;Analista de Dados;Estratégico;25;2026-04-30;2026-05-20;Finalizada;20
+1034;Atendente II;Operacional;15;2026-03-11;2026-03-30;Finalizada;19
+1035;Atendente I;Operacional;15;2026-09-10;2026-09-22;Finalizada;12
+1036;Auxiliar Operação I;Operacional;15;2026-04-17;2026-05-28;Finalizada;41
+1037;Auxiliar Operação I;Operacional;15;2026-03-29;2026-04-08;Finalizada;10
+1038;Auxiliar Operação I;Operacional;15;2026-09-29;2026-11-25;Finalizada;57
+1039;Auxiliar Operação I;Operacional;15;2026-02-05;2026-02-14;Finalizada;9
+1040;Atendente II;Operacional;15;2026-07-23;2026-07-31;Finalizada;8
+1041;Atendente II;Operacional;15;2026-08-09;2026-08-23;Finalizada;14
+1042;Atendente II;Operacional;15;2026-02-20;2026-03-03;Finalizada;11
+1043;Analista de Dados;Estratégico;25;2026-09-08;2026-09-26;Finalizada;18
+1044;Auxiliar Operação I;Operacional;15;2026-08-05;2026-08-15;Finalizada;10
+1045;Atendente I;Operacional;15;2026-05-16;2026-06-02;Finalizada;17
+1046;Motorista Truck;Estratégico;25;2026-04-20;2026-05-15;Finalizada;25
+1047;Supervisor de Loja;Estratégico;25;2026-03-14;2026-04-27;Finalizada;44
+1048;Analista de Dados;Estratégico;25;2026-10-07;2026-10-27;Finalizada;20
+1049;Atendente II;Operacional;15;2026-04-18;2026-05-15;Finalizada;27
+1050;Atendente II;Operacional;15;2026-03-15;2026-03-28;Finalizada;13
+1051;Atendente II;Operacional;15;2026-03-04;2026-03-14;Finalizada;10
+1052;Atendente II;Operacional;15;2026-04-10;2026-04-24;Finalizada;14
+1053;Supervisor de Loja;Estratégico;25;2026-04-04;2026-04-27;Finalizada;23
+1054;Atendente I;Operacional;15;2026-09-27;2026-10-21;Finalizada;24
+1055;Atendente II;Operacional;15;2026-03-01;2026-03-16;Finalizada;15
+1056;Supervisor de Loja;Estratégico;25;2026-04-26;2026-06-12;Finalizada;47
+1057;Atendente II;Operacional;15;2026-08-07;2026-08-23;Finalizada;16
+1058;Atendente I;Operacional;15;2026-02-06;2026-03-07;Finalizada;29
+1059;Atendente II;Operacional;15;2026-07-06;2026-07-19;Finalizada;13
+1060;Auxiliar Operação I;Operacional;15;2026-08-02;2026-08-11;Finalizada;9
+1061;Auxiliar Operação I;Operacional;15;2026-02-15;2026-02-28;Finalizada;13
+1062;Atendente I;Operacional;15;2026-02-23;2026-03-26;Finalizada;31
+1063;Atendente I;Operacional;15;2026-08-24;2026-09-18;Finalizada;25
+1064;Motorista Truck;Estratégico;25;2026-07-04;2026-08-13;Finalizada;40
+1065;Atendente I;Operacional;15;2026-03-20;2026-03-30;Finalizada;10
+1066;Auxiliar Operação I;Operacional;15;2026-04-05;2026-04-18;Finalizada;13
+1067;Atendente II;Operacional;15;2026-04-29;2026-05-26;Finalizada;27
+1068;Atendente I;Operacional;15;2026-03-18;2026-03-30;Finalizada;12
+1069;Auxiliar Operação I;Operacional;15;2026-05-15;2026-05-28;Finalizada;13
+1070;Auxiliar Operação I;Operacional;15;2026-02-02;2026-02-21;Finalizada;19
+1071;Atendente I;Operacional;15;2026-02-19;2026-03-02;Finalizada;11
+1072;Atendente I;Operacional;15;2026-05-05;2026-05-18;Finalizada;13
+1073;Atendente II;Operacional;15;2026-04-26;2026-05-11;Finalizada;15
+1074;Atendente II;Operacional;15;2026-09-13;2026-09-29;Finalizada;16
+1075;Atendente I;Operacional;15;2026-09-24;2026-10-06;Finalizada;12
+1076;Atendente I;Operacional;15;2026-09-26;2026-11-16;Finalizada;51
+1077;Analista de Dados;Estratégico;25;2026-05-21;2026-06-09;Finalizada;19
+1078;Auxiliar Operação I;Operacional;15;2026-09-01;2026-09-25;Finalizada;24
+1079;Supervisor de Loja;Estratégico;25;2026-03-22;2026-04-17;Finalizada;26
+1080;Atendente I;Operacional;15;2026-05-19;2026-05-28;Finalizada;9
+1081;Atendente I;Operacional;15;2026-08-06;2026-08-19;Finalizada;13
+1082;Atendente I;Operacional;15;2026-08-27;2026-10-03;Finalizada;37
+1083;Motorista Truck;Estratégico;25;2026-04-27;2026-05-21;Finalizada;24
+1084;Atendente II;Operacional;15;2026-08-26;2026-09-12;Finalizada;17
+1085;Analista de Dados;Estratégico;25;2026-04-30;2026-06-02;Finalizada;33
+1086;Atendente I;Operacional;15;2026-08-30;2026-09-18;Finalizada;19
+1087;Analista de Dados;Estratégico;25;2026-06-01;2026-07-02;Finalizada;31
+1088;Atendente I;Operacional;15;2026-09-30;2026-10-15;Finalizada;15
+1089;Auxiliar Operação I;Operacional;15;2026-08-08;2026-09-05;Finalizada;28
+1090;Analista de Dados;Estratégico;25;2026-08-01;2026-08-18;Finalizada;17
+1091;Motorista Truck;Estratégico;25;2026-08-20;2026-09-15;Finalizada;26
+1092;Atendente I;Operacional;15;2026-09-09;2026-09-25;Finalizada;16
+1093;Atendente I;Operacional;15;2026-07-16;2026-07-24;Finalizada;8
+1094;Auxiliar Operação I;Operacional;15;2026-05-08;2026-05-19;Finalizada;11
+1095;Farmacêutico;Estratégico;25;2026-05-23;2026-06-15;Finalizada;23
+1096;Auxiliar Operação I;Operacional;15;2026-04-30;2026-05-12;Finalizada;12
+1097;Atendente II;Operacional;15;2026-09-02;2026-09-25;Finalizada;23
+1098;Atendente II;Operacional;15;2026-08-02;2026-08-27;Finalizada;25
+1099;Auxiliar Operação I;Operacional;15;2026-05-09;2026-05-21;Finalizada;12
+1100;Atendente II;Operacional;15;2026-01-17;2026-02-11;Finalizada;25
+1101;Farmacêutico;Estratégico;25;2026-03-02;2026-03-23;Finalizada;21
+1102;Atendente I;Operacional;15;2026-02-17;2026-03-11;Finalizada;22
+1103;Motorista Truck;Estratégico;25;2026-03-13;2026-04-19;Finalizada;37
+1104;Farmacêutico;Estratégico;25;2026-07-06;2026-08-11;Finalizada;36
+1105;Atendente II;Operacional;15;2026-08-19;2026-09-07;Finalizada;19
+1106;Atendente I;Operacional;15;2026-05-09;2026-06-08;Finalizada;30
+1107;Motorista Truck;Estratégico;25;2026-03-18;2026-05-07;Finalizada;50
+1108;Atendente I;Operacional;15;2026-04-16;2026-04-30;Finalizada;14
+1109;Atendente II;Operacional;15;2026-02-23;2026-03-06;Finalizada;11
+1110;Farmacêutico;Estratégico;25;2026-09-21;2026-10-26;Finalizada;35
+1111;Atendente II;Operacional;15;2026-08-16;2026-09-02;Finalizada;17
+1112;Atendente I;Operacional;15;2026-06-12;2026-06-29;Finalizada;17
+1113;Atendente I;Operacional;15;2026-06-21;2026-07-01;Finalizada;10
+1114;Auxiliar Operação I;Operacional;15;2026-09-06;2026-10-02;Finalizada;26
+1115;Motorista Truck;Estratégico;25;2026-08-02;2026-09-08;Finalizada;37
+1116;Auxiliar Operação I;Operacional;15;2026-09-16;2026-10-01;Finalizada;15
+1117;Analista de Dados;Estratégico;25;2026-01-15;2026-02-08;Finalizada;24
+1118;Atendente I;Operacional;15;2026-03-29;2026-05-01;Finalizada;33
+1119;Auxiliar Operação I;Operacional;15;2026-02-24;2026-03-13;Finalizada;17
+1120;Auxiliar Operação I;Operacional;15;2026-07-17;2026-07-26;Finalizada;9

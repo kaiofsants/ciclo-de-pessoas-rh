@@ -1,0 +1,131 @@
+// Medidas
+// Projeto: SLA de recrutamento por etapa no Power BI (dados fictícios)
+// Linguagem: DAX
+
+-- C1. NOVA: prazo da etapa em que a vaga está (usada pelas outras)
+Limite Etapa Atual =
+VAR Tipo = SELECTEDVALUE ( 'Geral Requisições'[Tipo Vaga] )
+VAR Ordem = [Ordem Etapa Atual]
+RETURN
+    SWITCH (
+        Tipo,
+        "Operacional", SWITCH ( Ordem, 1, 3, 2, 4, 3, 2, 4, 2, 5, 2, 6, 1, 7, 3, 8, 1 ),
+        "Estratégico", SWITCH ( Ordem, 1, 3, 2, 5, 3, 3, 4, 5, 5, 2, 6, 3, 7, 6, 8, 1 )
+    )
+
+
+-- C2. Atraso Etapa (Numérico)
+-- Erro corrigido: comparava o total de dias da vaga com o prazo de uma
+-- etapa só. Agora compara com o dia em que a etapa deveria ter terminado.
+Atraso Etapa (Numérico) =
+VAR Finalizada = SELECTEDVALUE ( 'Geral Requisições'[Finalizada] )
+VAR Dias = SELECTEDVALUE ( 'Geral Requisições'[Dias em Aberto] )
+VAR UltimoDia = SELECTEDVALUE ( 'Geral Requisições'[Último Dia da Etapa Atual] )
+RETURN
+    IF (
+        Finalizada = TRUE () || ISBLANK ( Dias ) || ISBLANK ( UltimoDia ),
+        BLANK (),
+        MAX ( 0, Dias - UltimoDia )
+    )
+
+
+-- C3. Atraso Etapa (Exibição)
+Atraso Etapa (Exibição) =
+IF (
+    SELECTEDVALUE ( 'Geral Requisições'[Finalizada] ) = TRUE (),
+    "Vaga finalizada",
+    IF (
+        ISBLANK ( [Atraso Etapa (Numérico)] ),
+        BLANK (),
+        FORMAT ( [Atraso Etapa (Numérico)], "0" ) & " dias"
+    )
+)
+
+
+-- C4. Data Esperada Próxima Etapa
+Data Esperada Próxima Etapa =
+VAR DataEntrada = [Data Entrada Etapa Atual]
+VAR Prazo = [Limite Etapa Atual]
+RETURN
+    IF ( ISBLANK ( DataEntrada ) || ISBLANK ( Prazo ), BLANK (), DataEntrada + Prazo )
+
+
+-- C5. NOVA: Dias Parada na Etapa (regra do fluxo: parada há mais de 2 dias = ação imediata)
+Dias Parada na Etapa =
+VAR DataEntrada = [Data Entrada Etapa Atual]
+RETURN
+    IF (
+        SELECTEDVALUE ( 'Geral Requisições'[Finalizada] ) = TRUE () || ISBLANK ( DataEntrada ),
+        BLANK (),
+        INT ( TODAY () - DataEntrada )
+    )
+
+
+-- C6. % Vagas Críticas
+-- Regra do fluxo: vaga com mais de 30 dias em aberto = justificativa e plano de ação.
+% Vagas Críticas =
+VAR Criticas =
+    CALCULATE (
+        COUNTROWS ( 'Geral Requisições' ),
+        ISBLANK ( 'Geral Requisições'[Data Encer.] ),
+        'Geral Requisições'[Dias em Aberto] > 30
+    )
+RETURN
+    COALESCE ( DIVIDE ( Criticas, [Vagas Abertas] ), 0 )
+
+
+-- C7. NOVA: Vagas em Acompanhamento Prioritário (mais de 15 dias em aberto)
+Vagas Prioritárias (+15 dias) =
+CALCULATE (
+    COUNTROWS ( 'Geral Requisições' ),
+    ISBLANK ( 'Geral Requisições'[Data Encer.] ),
+    'Geral Requisições'[Dias em Aberto] > 15
+)
+
+
+-- C8. Tempo Médio Fechamento
+-- Corrige: vagas canceladas entravam no tempo médio de fechamento.
+Tempo Médio Fechamento =
+CALCULATE (
+    AVERAGE ( 'Geral Requisições'[Dias em Aberto] ),
+    'Geral Requisições'[Situação] = "Finalizada"
+)
+
+
+-- C9. Qtd Vagas dentro do SLA (sem as canceladas)
+Qtd Vagas dentro do SLA =
+CALCULATE (
+    COUNTROWS ( 'Geral Requisições' ),
+    'Geral Requisições'[Situação] = "Finalizada",
+    FILTER (
+        'Geral Requisições',
+        'Geral Requisições'[Dias em Aberto] <= 'Geral Requisições'[SLA Vaga]
+    )
+)
+
+
+-- C10. % Cumprimento SLA (Finalizadas) (sem as canceladas)
+% Cumprimento SLA (Finalizadas) =
+VAR Total =
+    CALCULATE ( COUNTROWS ( 'Geral Requisições' ), 'Geral Requisições'[Situação] = "Finalizada" )
+RETURN
+    COALESCE ( DIVIDE ( [Qtd Vagas dentro do SLA], Total ), 0 )
+
+
+-- C12. Tempo Médio por Etapa (substitui a atual, que só olhava a etapa
+--      em que cada vaga está hoje). Use com Atributo no eixo.
+Tempo Médio por Etapa =
+AVERAGE ( 'Geral Históricos'[Dias na Etapa] )
+
+
+-- C13. NOVA: Prazo da Etapa (para a linha de referência no mesmo gráfico)
+Prazo da Etapa =
+AVERAGE ( 'Geral Históricos'[Limite SLA] )
+
+
+-- C14. NOVA: % Etapas no Prazo
+% Etapas no Prazo =
+DIVIDE (
+    CALCULATE ( COUNTROWS ( 'Geral Históricos' ), 'Geral Históricos'[Status SLA Etapa] = "No prazo" ),
+    CALCULATE ( COUNTROWS ( 'Geral Históricos' ), NOT ISBLANK ( 'Geral Históricos'[Dias na Etapa] ) )
+)

@@ -1,0 +1,53 @@
+// Colunas calculadas da tabela Geral Históricos (relação Requisição -> Req.)
+// Projeto: SLA de recrutamento por etapa no Power BI (dados fictícios)
+// Linguagem: DAX
+
+-- B1. Limite SLA (substitui a coluna atual, que tinha um prazo só para os dois
+--     tipos e deixava o Feedback em branco)
+Limite SLA =
+VAR Tipo = RELATED ( 'Geral Requisições'[Tipo Vaga] )
+VAR Ordem = 'Geral Históricos'[Ordem Etapa]
+RETURN
+    IF (
+        Tipo = "Operacional",
+        SWITCH ( Ordem, 1, 3, 2, 4, 3, 2, 4, 2, 5, 2, 6, 1, 7, 3, 8, 1 ),
+        SWITCH ( Ordem, 1, 3, 2, 5, 3, 3, 4, 5, 5, 2, 6, 3, 7, 6, 8, 1 )
+    )
+
+
+-- B2. Dias na Etapa (NOVA): quantos dias a vaga ficou em cada etapa,
+--     até a data da etapa seguinte no mesmo ciclo. É a base do gráfico de
+--     gargalos. A coluna Tempo Etapa atual tem valores negativos e linhas
+--     repetidas, por isso esta conta é refeita pelas datas.
+--     A etapa do gestor vai até a Definição (inclui o feedback).
+Dias na Etapa =
+VAR Req = 'Geral Históricos'[Requisição]
+VAR Ciclo = 'Geral Históricos'[Ciclo (quantidade retrabalho)]
+VAR Ordem = 'Geral Históricos'[Ordem Etapa]
+VAR DataEtapa = 'Geral Históricos'[Valor]
+VAR ProximaData =
+    MINX (
+        FILTER (
+            'Geral Históricos',
+            'Geral Históricos'[Requisição] = Req
+                && 'Geral Históricos'[Ciclo (quantidade retrabalho)] = Ciclo
+                && 'Geral Históricos'[Ordem Etapa] > Ordem
+                && 'Geral Históricos'[Ordem Etapa] <> 5
+        ),
+        'Geral Históricos'[Valor]
+    )
+RETURN
+    IF (
+        Ordem = 5 || ISBLANK ( ProximaData ) || ISBLANK ( DataEtapa ),
+        BLANK (),
+        MAX ( 0, INT ( ProximaData - DataEtapa ) )
+    )
+
+
+-- B3. Status SLA Etapa (substitui a coluna atual)
+Status SLA Etapa =
+IF (
+    ISBLANK ( 'Geral Históricos'[Dias na Etapa] ),
+    BLANK (),
+    IF ( 'Geral Históricos'[Dias na Etapa] <= 'Geral Históricos'[Limite SLA], "No prazo", "Atrasado" )
+)

@@ -1,0 +1,83 @@
+// Colunas calculadas da tabela Geral Requisições
+// Projeto: SLA de recrutamento por etapa no Power BI (dados fictícios)
+// Linguagem: DAX
+
+-- A1. Tipo Vaga: operacional para Auxiliar de Operação e Atendentes; o resto é estratégico
+Tipo Vaga =
+VAR Cargo = 'Geral Requisições'[Cargo]
+RETURN
+    IF (
+        LEFT ( Cargo, 17 ) = "Auxiliar Operação"
+            || LEFT ( Cargo, 9 ) = "Atendente",
+        "Operacional",
+        "Estratégico"
+    )
+
+
+-- A2. SLA Vaga
+SLA Vaga =
+IF ( 'Geral Requisições'[Tipo Vaga] = "Operacional", 15, 25 )
+
+
+-- A3. Etapa Teórica: em que etapa a vaga deveria estar pelos dias em aberto
+Etapa Teórica =
+VAR Dias = 'Geral Requisições'[Dias em Aberto]
+VAR Op = 'Geral Requisições'[Tipo Vaga] = "Operacional"
+RETURN
+    SWITCH (
+        TRUE (),
+        'Geral Requisições'[Finalizada] = TRUE (), "Vaga Finalizada",
+        'Geral Requisições'[Pré admissão] = TRUE (), "Pré-Admissão",
+        Dias <= 2, "Abertura/Alinhamento com Gestor",
+        Dias <= IF ( Op, 6, 7 ), "Divulgação/Triagem",
+        Dias <= IF ( Op, 8, 10 ), "Entrevista com RH/Testes",
+        Dias <= IF ( Op, 10, 15 ), "Entrevista com gestor",
+        Dias <= IF ( Op, 11, 18 ), "Definição do Candidato",
+        Dias <= IF ( Op, 14, 24 ), "Proposta/Documentação",
+        Dias <= IF ( Op, 15, 25 ), "Admissão",
+        "Acima do SLA"
+    )
+
+
+-- A4. Ordem Etapa Teórica: mesma numeração do Geral Históricos (1 a 8),
+--     para comparar direto com a Ordem Etapa Atual
+Ordem Etapa Teórica =
+SWITCH (
+    'Geral Requisições'[Etapa Teórica],
+    "Abertura/Alinhamento com Gestor", 1,
+    "Divulgação/Triagem", 2,
+    "Entrevista com RH/Testes", 3,
+    "Entrevista com gestor", 4,
+    "Definição do Candidato", 6,
+    "Proposta/Documentação", 7,
+    "Admissão", 8,
+    "Acima do SLA", 9,
+    "Pré-Admissão", 10,
+    "Vaga Finalizada", 11
+)
+-- Atenção: antes Pré-Admissão era 8 e Vaga Finalizada era 9. Se algum
+-- visual ordena por esta coluna, confira a ordem depois da troca.
+
+
+-- A5. Último Dia da Etapa Atual: até que dia (D) a etapa em que a vaga
+--     está hoje pode ir. Vaga sem etapa registrada conta como etapa 1.
+Último Dia da Etapa Atual =
+VAR Ordem = COALESCE ( 'Geral Requisições'[Ordem Etapa Atual], 1 )
+RETURN
+    IF (
+        'Geral Requisições'[Tipo Vaga] = "Operacional",
+        SWITCH ( Ordem, 1, 2, 2, 6, 3, 8, 4, 10, 5, 10, 6, 11, 7, 14, 8, 15, 15 ),
+        SWITCH ( Ordem, 1, 2, 2, 7, 3, 10, 4, 15, 5, 15, 6, 18, 7, 24, 8, 25, 25 )
+    )
+
+
+-- A6. SLA da Etapa (substitui a coluna atual)
+-- Corrige: vaga sem etapa registrada aparecia "Dentro do SLA" mesmo muito atrasada.
+SLA da Etapa =
+VAR Dias = 'Geral Requisições'[Dias em Aberto]
+RETURN
+    IF (
+        'Geral Requisições'[Finalizada] = TRUE (),
+        IF ( Dias <= 'Geral Requisições'[SLA Vaga], "Dentro do SLA", "Fora do SLA" ),
+        IF ( Dias <= 'Geral Requisições'[Último Dia da Etapa Atual], "Dentro do SLA", "Fora do SLA" )
+    )
